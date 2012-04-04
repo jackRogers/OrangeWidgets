@@ -12,11 +12,15 @@ Goals:
 Orange Widgets:
 	Bioinformatic Data Converter
 		Orange is very limited by the data types it can access
+		The default file widget can read data from simple 
+		 tab-delimited or comma-separated files, as well as
+		 files in C4.5 format and Weka’s .arrf files.		
 		Bioinformatic data sets come in a variety of very unique formats that
 		 store metadata in very differnt ways
 		Be able to load files to data tables or convert to tab delimited format
-		Support for .cel, .fasta, .csv, .chp, etc... whatever orange doesnt
+		Support for .cel, .fasta, .chp, etc... whatever orange doesnt
 		 support and is convenient to implement
+		
 	
 	Penalized Logistic Regression
 		Very popular Logistic regression method over the last 5ish years in
