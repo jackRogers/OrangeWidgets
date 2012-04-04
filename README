@@ -17,7 +17,8 @@ Orange Widgets:
 		 files in C4.5 format and Weka’s .arrf files.		
 		Bioinformatic data sets come in a variety of very unique formats that
 		 store metadata in very differnt ways
-		Be able to load files to data tables or convert to tab delimited format
+		Be able to load files to data tables or convert to tab delimited
+		 format
 		Support for .cel, .fasta, .chp, etc... whatever orange doesnt
 		 support and is convenient to implement
 		
