@@ -4,18 +4,23 @@ New College of Florida
 
 Goals:
 	To aid scientists and academics in using orange in the study of biology
-	To possibly meet satisfactory criteria for our bioinformatic machine learning class without risk of failure wasting anything but time
-	Learn about Orange widget creation, file parsing, metadata associations, and logistic regression algorithms 
+	To possibly meet satisfactory criteria for our bioinformatic machine learning
+	 class without risk of failure wasting anything but time
+	Learn about Orange widget creation, file parsing, metadata associations, and
+	 logistic regression algorithms 
 
 Orange Widgets:
 	Bioinformatic Data Converter
 		Orange is very limited by the data types it can access
-		Bioinformatic data sets come in a variety of very unique formats that store metadata in very differnt ways
+		Bioinformatic data sets come in a variety of very unique formats that
+		 store metadata in very differnt ways
 		Be able to load files to data tables or convert to tab delimited format
-		Support for .cel, .fasta, .csv, .chp, etc... whatever orange doesnt support and is convenient to implement
+		Support for .cel, .fasta, .csv, .chp, etc... whatever orange doesnt
+		 support and is convenient to implement
 	
 	Penalized Logistic Regression
-		Very popular Logistic regression method over the last 5ish years in regards to bioinformatic machine learning journal articles
+		Very popular Logistic regression method over the last 5ish years in
+		 regards to bioinformatic machine learning journal articles
 		not present in current widget
 		implemented in many other machine learning libraries
 			easy to reengineer
