@@ -119,31 +119,29 @@ def concat(flist, column_overlap=0, transpose=False):
   returns a numpy array of all file constituents.
   """
 
-  data = []
+  data = []       #Container for all file data desired
 
   for num, fil in enumerate(flist):
     f = open(fil, 'r')
-    reader = csv.reader(f, delimiter='\t')
+    reader = csv.reader(f, delimiter='\t')  #init csv reader on each file in list
 
     line_i = reader.next()
-    i = 0
-    if num < 1:
+    i = 0   #counter to make sure which line we are on.
+    if num < 1:  #if it is the first file, add straight to data
       while line_i:
-        data.append(line_i)
+        data.append(line_i)   #add to data as new list
         try:
           line_i = reader.next()
         except:
-          break
-    else:
-      print "second"
+          break  #exit loop gracefully.
+    else: # all other files after first...
       while line_i:
-        data[i].extend(line_i[column_overlap:])
+        data[i].extend(line_i[column_overlap:])  # .. extend the i-th list in data
         try:
           line_i = reader.next()
-          i += 1
+          i += 1   #update the counter
         except:
-          print "second break"
-          break
+          break    #end gracefully
 
-  return data
+  return data  #may addd as numpy array later, if desired.
 
