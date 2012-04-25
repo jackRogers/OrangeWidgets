@@ -1,16 +1,26 @@
 #bioinformatic file management functions to be implemented
-import sys
 
 #goals
     #take multiple files and merge them into single data table
     #be able to transpose matrix(switching from samples to genes as entries)
     #be able to deal with FASTA formats(WHY DOESNT ORANGE DO THIS?)
 
+"""
+IMPORTS
+"""
 import os
+import sys
+import csv
+
+"""
+GLOBALS
+"""
+EXAMPLEFILELIST=['breast-cancer-wisconsin.tab', 'breast-cancer-wisconsin-cont.tab']
 
 
-
-
+"""
+SCRIPT
+"""
 
 #fasta reader
 def fastaReader(fastaFile):
@@ -90,6 +100,48 @@ def makeDataFile(newFileName,dataDict):
 		line += "\n"
 		fh.write(line)
 	fh.close
-		
-		 
 	
+
+def concat(flist, column_overlap=0, transpose=False):
+  """
+  A concatonate function that returns a large data table of 
+  the files in flist.
+
+  Assumes that all files are properly aligned.  Will terminate
+  in error if file lengths do not line up appropriately.
+
+  column_overlap specifies the number of repeat columns 
+  in the files.  Ignores these columns from concatonation.
+
+  Transpose calls the transpose function before returning the 
+  data file matrix.
+
+  returns a numpy array of all file constituents.
+  """
+
+  data = []       #Container for all file data desired
+
+  for num, fil in enumerate(flist):
+    f = open(fil, 'r')
+    reader = csv.reader(f, delimiter='\t')  #init csv reader on each file in list
+
+    line_i = reader.next()
+    i = 0   #counter to make sure which line we are on.
+    if num < 1:  #if it is the first file, add straight to data
+      while line_i:
+        data.append(line_i)   #add to data as new list
+        try:
+          line_i = reader.next()
+        except:
+          break  #exit loop gracefully.
+    else: # all other files after first...
+      while line_i:
+        data[i].extend(line_i[column_overlap:])  # .. extend the i-th list in data
+        try:
+          line_i = reader.next()
+          i += 1   #update the counter
+        except:
+          break    #end gracefully
+
+  return data  #may addd as numpy array later, if desired.
+
