@@ -76,7 +76,7 @@ def makeDataFile(newFileName,dataDict):
 	paitients = dataDict.keys()
 	genes = dataDict[paitients[0]].keys()
 	
-	header = "paitientID\t"
+	header = "patientID\t"
 	for g in genes:
 		header += g
 		header += "\t"
@@ -91,7 +91,7 @@ def makeDataFile(newFileName,dataDict):
 	
 	fh.write(shitz)
 		
-	for p in paitients:
+	for p in patients:
 		line = p
 		line += "\t"
 		for g in genes:
@@ -100,6 +100,31 @@ def makeDataFile(newFileName,dataDict):
 		line += "\n"
 		fh.write(line)
 	fh.close
+	
+def makeCSVDataFile(newFileName,dataDict):
+	fh = open(newFileName,'w')
+	writer = csv.writer(fh,delimiter = "\t")
+	patients = dataDict.keys()
+	genes = dataDict[patients[0]].keys()
+	
+	header = []
+	header.append("patientID")
+	for g in genes:
+		header.append(g)
+	header.append('value')
+	
+	writer.writerow(header)
+	
+	for p in patients:
+		line = []
+		line.append(p)
+		for g in genes:
+			line.append(dataDict[p][g])
+		writer.writerow(line)
+		
+	fh.close
+	
+	
 	
 
 def concat(flist, column_overlap=0, transpose=False):
