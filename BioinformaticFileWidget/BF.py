@@ -111,9 +111,18 @@ def makeCSVDataFile(newFileName,dataDict):
 	header.append("patientID")
 	for g in genes:
 		header.append(g)
-	header.append('value')
 	
 	writer.writerow(header)
+	
+	header2 = []
+	header2.append('d')
+	for g in genes:
+		header2.append('c')
+	
+	writer.writerow(header2)
+	
+	header3 = []
+	
 	
 	for p in patients:
 		line = []
