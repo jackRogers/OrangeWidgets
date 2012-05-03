@@ -1,0 +1,552 @@
+bcr_patient_barcode	additional_chemo_therapy	additional_drug_therapy	additional_immuno_therapy	additional_pharmaceutical_therapy	additional_radiation_therapy	additional_surgery_locoregional_procedure	additional_surgery_metastatic_procedure	chemo_therapy	days_to_additional_surgery_locoregional_procedure	days_to_additional_surgery_metastatic_procedure	days_to_death	days_to_last_followup	days_to_new_tumor_event_after_initial_treatment	days_to_tumor_progression	days_to_tumor_recurrence	eastern_cancer_oncology_group	hormonal_therapy	immuno_therapy	karnofsky_performance_score	performance_status_scale_timing	person_neoplasm_cancer_status	radiation_therapy	targeted_molecular_therapy	vital_status
+TCGA-02-0001	NO	NO	NO	NO	NO	null	null	YES	null	null	358	278	null	null	137	null	NO	NO	80	null	WITH TUMOR	YES	NO	DECEASED
+TCGA-02-0003	NO	NO	NO	NO	NO	null	null	YES	null	null	144	144	null	null	40	null	NO	NO	100	null	WITH TUMOR	YES	NO	DECEASED
+TCGA-02-0004	NO	NO	NO	NO	NO	null	null	YES	null	null	345	345	null	314	null	null	NO	NO	80	null	WITH TUMOR	YES	NO	DECEASED
+TCGA-02-0006	YES	NO	NO	NO	NO	YES	null	YES	null	null	558	558	null	null	302	null	NO	NO	80	null	WITH TUMOR	YES	NO	DECEASED
+TCGA-02-0007	NO	NO	NO	NO	YES	null	null	YES	null	null	705	705	null	518	null	null	NO	NO	80	null	WITH TUMOR	YES	NO	DECEASED
+TCGA-02-0009	null	NO	NO	NO	NO	YES	null	null	270	null	322	322	null	264	null	null	NO	NO	80	null	WITH TUMOR	YES	NO	DECEASED
+TCGA-02-0010	YES	NO	NO	NO	NO	null	null	YES	null	null	1077	1077	null	351	null	null	NO	NO	80	null	WITH TUMOR	YES	NO	DECEASED
+TCGA-02-0011	YES	NO	NO	NO	NO	null	null	YES	null	null	630	630	null	144	null	null	NO	NO	80	null	WITH TUMOR	YES	NO	DECEASED
+TCGA-02-0014	YES	NO	NO	NO	NO	null	null	YES	null	null	2511	2511	null	2243	null	null	NO	NO	100	null	WITH TUMOR	YES	NO	DECEASED
+TCGA-02-0015	YES	NO	NO	NO	NO	YES	null	YES	null	null	627	627	null	null	456	null	NO	NO	80	null	WITH TUMOR	YES	NO	DECEASED
+TCGA-02-0016	NO	NO	NO	NO	NO	null	null	YES	null	null	null	1699	null	null	1699	null	NO	NO	100	null	WITH TUMOR	YES	NO	LIVING
+TCGA-02-0016	null	null	null	null	null	null	null	null	null	null	2647	null	null	null	null	null	null	null	null	null	WITH TUMOR	YES	null	DECEASED
+TCGA-02-0021	NO	NO	NO	NO	NO	null	null	YES	null	null	2361	2361	null	254	null	null	NO	NO	80	null	WITH TUMOR	YES	NO	DECEASED
+TCGA-02-0023	YES	NO	NO	NO	NO	YES	null	YES	null	null	612	612	null	435	null	null	NO	NO	80	null	WITH TUMOR	YES	NO	DECEASED
+TCGA-02-0024	null	NO	NO	NO	NO	null	null	YES	null	null	1614	1614	null	null	1400	null	NO	NO	100	null	WITH TUMOR	YES	NO	DECEASED
+TCGA-02-0025	YES	NO	NO	NO	NO	YES	null	YES	null	null	1300	1300	null	656	null	null	NO	NO	100	null	WITH TUMOR	YES	NO	DECEASED
+TCGA-02-0026	YES	NO	NO	NO	NO	null	null	YES	null	null	748	748	null	462	null	null	NO	NO	80	null	WITH TUMOR	YES	NO	DECEASED
+TCGA-02-0027	YES	NO	NO	NO	NO	null	null	YES	null	null	370	315	null	257	null	null	NO	NO	100	null	WITH TUMOR	YES	NO	DECEASED
+TCGA-02-0028	YES	NO	NO	NO	NO	null	null	YES	null	null	2755	2755	null	1921	null	null	NO	NO	100	null	WITH TUMOR	YES	NO	DECEASED
+TCGA-02-0033	null	NO	NO	NO	NO	null	null	null	null	null	86	86	null	32	null	null	NO	NO	100	null	WITH TUMOR	YES	NO	DECEASED
+TCGA-02-0034	NO	NO	NO	NO	NO	null	null	YES	null	null	430	430	null	386	null	null	NO	NO	80	null	WITH TUMOR	YES	NO	DECEASED
+TCGA-02-0037	NO	NO	NO	NO	NO	NO	NO	NO	null	null	109	109	null	37	null	null	NO	NO	80	null	WITH TUMOR	YES	NO	DECEASED
+TCGA-02-0038	NO	NO	NO	NO	NO	NO	null	YES	null	null	326	326	null	238	null	null	NO	NO	80	null	WITH TUMOR	YES	NO	DECEASED
+TCGA-02-0039	null	NO	NO	NO	NO	null	null	YES	null	null	320	320	null	102	null	null	NO	NO	60	null	WITH TUMOR	YES	NO	DECEASED
+TCGA-02-0043	YES	NO	NO	NO	NO	null	null	YES	null	null	556	556	null	282	null	null	NO	NO	80	null	WITH TUMOR	YES	NO	DECEASED
+TCGA-02-0046	null	NO	NO	NO	NO	NO	NO	null	null	null	208	208	null	194	null	null	NO	NO	60	null	WITH TUMOR	YES	NO	DECEASED
+TCGA-02-0047	NO	NO	NO	NO	NO	NO	NO	NO	null	null	447	447	null	57	null	null	NO	NO	80	null	WITH TUMOR	YES	NO	DECEASED
+TCGA-02-0048	null	null	null	null	null	null	null	null	null	null	97	97	null	23	null	null	NO	NO	null	null	null	YES	NO	DECEASED
+TCGA-02-0051	YES	NO	NO	NO	NO	YES	null	YES	413	null	458	458	null	88	null	null	NO	NO	100	null	WITH TUMOR	YES	NO	DECEASED
+TCGA-02-0052	NO	NO	NO	NO	NO	null	null	YES	null	null	383	383	null	204	null	null	NO	NO	80	null	WITH TUMOR	YES	NO	DECEASED
+TCGA-02-0054	YES	NO	NO	NO	NO	null	null	YES	null	null	199	199	null	72	null	null	NO	NO	80	null	WITH TUMOR	YES	NO	DECEASED
+TCGA-02-0055	NO	NO	NO	NO	NO	null	null	YES	null	null	76	76	null	6	null	null	NO	NO	80	null	WITH TUMOR	YES	NO	DECEASED
+TCGA-02-0057	YES	NO	NO	NO	NO	null	null	YES	null	null	604	604	null	473	null	null	NO	NO	80	null	WITH TUMOR	YES	NO	DECEASED
+TCGA-02-0058	NO	NO	NO	NO	NO	null	null	YES	null	null	254	254	null	171	null	null	NO	NO	80	null	WITH TUMOR	YES	NO	DECEASED
+TCGA-02-0059	null	NO	NO	NO	NO	NO	NO	null	null	null	291	291	null	null	21	null	NO	NO	80	null	WITH TUMOR	YES	NO	DECEASED
+TCGA-02-0060	NO	NO	NO	NO	NO	null	null	YES	null	null	183	183	null	183	null	null	NO	NO	80	null	WITH TUMOR	YES	NO	DECEASED
+TCGA-02-0064	YES	NO	NO	NO	NO	YES	null	YES	null	null	600	600	null	null	496	null	NO	NO	100	null	WITH TUMOR	YES	NO	DECEASED
+TCGA-02-0068	YES	NO	NO	NO	NO	YES	null	YES	null	null	804	804	null	null	175	null	NO	NO	80	null	WITH TUMOR	YES	NO	DECEASED
+TCGA-02-0069	NO	NO	NO	NO	NO	null	null	YES	null	null	null	873	null	873	null	null	NO	NO	80	null	WITH TUMOR	YES	NO	LIVING
+TCGA-02-0070	NO	NO	NO	NO	NO	null	null	YES	null	null	null	762	null	null	762	null	NO	NO	80	null	WITH TUMOR	YES	NO	LIVING
+TCGA-02-0071	null	NO	NO	NO	NO	NO	NO	null	null	null	167	167	null	8	null	null	NO	NO	80	null	WITH TUMOR	YES	NO	DECEASED
+TCGA-02-0074	NO	NO	NO	NO	NO	YES	null	YES	null	null	310	310	null	154	null	null	NO	NO	80	null	WITH TUMOR	YES	NO	DECEASED
+TCGA-02-0075	NO	NO	NO	NO	NO	null	null	YES	null	null	634	634	null	336	null	null	NO	NO	80	null	WITH TUMOR	YES	NO	DECEASED
+TCGA-02-0079	null	NO	NO	NO	NO	null	null	null	null	null	828	828	null	797	null	null	NO	NO	80	null	WITH TUMOR	YES	NO	DECEASED
+TCGA-02-0080	YES	NO	NO	NO	NO	null	null	YES	null	null	2729	2729	null	2339	null	null	NO	NO	80	null	WITH TUMOR	YES	NO	DECEASED
+TCGA-02-0083	null	NO	NO	NO	NO	null	null	YES	null	null	691	691	null	462	null	null	NO	NO	80	null	WITH TUMOR	YES	NO	DECEASED
+TCGA-02-0084	null	NO	NO	NO	NO	null	null	null	null	null	384	7	null	null	null	null	null	null	80	null	null	null	null	DECEASED
+TCGA-02-0085	NO	NO	NO	NO	NO	null	null	YES	null	null	1560	1560	null	976	null	null	NO	NO	80	null	WITH TUMOR	YES	NO	DECEASED
+TCGA-02-0086	YES	NO	NO	NO	NO	null	null	YES	null	null	268	268	null	97	null	null	NO	NO	100	null	WITH TUMOR	YES	NO	DECEASED
+TCGA-02-0087	null	NO	NO	NO	NO	null	null	null	null	null	null	1757	null	null	1757	null	NO	NO	80	null	null	YES	NO	LIVING
+TCGA-02-0089	NO	NO	NO	NO	NO	null	null	YES	null	null	515	515	null	358	null	null	NO	NO	100	null	WITH TUMOR	YES	NO	DECEASED
+TCGA-02-0099	YES	NO	NO	NO	NO	null	null	YES	null	null	106	106	null	null	null	null	null	null	80	null	WITH TUMOR	YES	null	DECEASED
+TCGA-02-0102	YES	NO	NO	NO	NO	YES	null	YES	null	null	821	821	null	450	null	null	NO	NO	100	null	WITH TUMOR	YES	NO	DECEASED
+TCGA-02-0104	NO	NO	NO	NO	NO	YES	null	YES	null	null	1977	1977	null	null	1457	null	NO	NO	80	null	WITH TUMOR	YES	NO	DECEASED
+TCGA-02-0106	YES	NO	NO	NO	NO	null	null	YES	null	null	355	355	null	null	195	null	NO	NO	80	null	WITH TUMOR	YES	NO	DECEASED
+TCGA-02-0107	null	NO	NO	NO	NO	null	null	YES	null	null	537	537	null	null	146	null	NO	NO	80	null	WITH TUMOR	YES	NO	DECEASED
+TCGA-02-0111	null	NO	NO	NO	NO	null	null	YES	null	null	704	704	null	74	null	null	NO	NO	80	null	WITH TUMOR	YES	NO	DECEASED
+TCGA-02-0113	null	NO	NO	NO	NO	null	null	YES	null	null	null	2817	null	null	1559	null	NO	NO	100	null	WITH TUMOR	YES	NO	LIVING
+TCGA-02-0114	YES	NO	NO	NO	NO	YES	null	YES	null	null	3040	3040	null	null	2296	null	NO	NO	80	null	WITH TUMOR	YES	NO	DECEASED
+TCGA-02-0115	YES	NO	NO	NO	NO	YES	null	YES	null	null	476	476	null	91	null	null	NO	NO	80	null	WITH TUMOR	YES	NO	DECEASED
+TCGA-02-0116	YES	NO	NO	NO	NO	null	null	YES	null	null	1489	1489	null	1231	null	null	NO	NO	80	null	WITH TUMOR	YES	NO	DECEASED
+TCGA-02-0258	null	NO	NO	NO	NO	null	null	null	null	null	503	503	null	null	503	null	NO	NO	null	null	WITH TUMOR	YES	NO	DECEASED
+TCGA-02-0260	null	NO	NO	NO	NO	YES	null	null	379	null	514	514	null	null	null	null	NO	NO	null	null	WITH TUMOR	YES	NO	DECEASED
+TCGA-02-0266	null	NO	NO	NO	NO	YES	null	null	236	null	538	538	null	293	null	null	NO	NO	null	null	WITH TUMOR	YES	NO	DECEASED
+TCGA-02-0269	null	NO	NO	NO	NO	null	null	null	null	null	327	327	null	99	null	null	NO	NO	null	null	WITH TUMOR	YES	NO	DECEASED
+TCGA-02-0271	null	null	null	null	null	null	null	null	null	null	440	440	null	0	null	null	NO	NO	null	null	null	YES	NO	DECEASED
+TCGA-02-0281	null	NO	NO	NO	NO	null	null	null	null	null	121	121	null	0	null	null	NO	NO	null	null	WITH TUMOR	YES	NO	DECEASED
+TCGA-02-0285	null	NO	NO	NO	NO	null	null	null	null	null	422	422	null	0	null	null	NO	NO	null	null	WITH TUMOR	YES	NO	DECEASED
+TCGA-02-0289	NO	NO	NO	NO	NO	YES	null	YES	null	null	432	432	null	244	null	null	NO	NO	80	null	WITH TUMOR	YES	NO	DECEASED
+TCGA-02-0290	NO	NO	NO	NO	NO	YES	null	YES	null	null	485	485	null	374	null	null	NO	NO	80	null	WITH TUMOR	YES	NO	DECEASED
+TCGA-02-0317	null	NO	NO	NO	NO	null	null	YES	null	null	372	372	null	238	null	null	NO	NO	80	null	WITH TUMOR	YES	NO	DECEASED
+TCGA-02-0321	null	NO	NO	NO	NO	YES	null	null	74	null	300	300	null	73	null	null	NO	NO	80	null	WITH TUMOR	YES	NO	DECEASED
+TCGA-02-0324	null	NO	NO	NO	NO	null	null	null	null	null	234	234	null	163	null	null	NO	NO	80	null	WITH TUMOR	YES	NO	DECEASED
+TCGA-02-0325	YES	NO	NO	NO	NO	null	null	YES	null	null	323	323	null	284	null	null	NO	NO	80	null	WITH TUMOR	YES	NO	DECEASED
+TCGA-02-0326	null	NO	NO	NO	NO	null	null	null	null	null	223	5	null	5	null	null	NO	NO	80	null	WITH TUMOR	YES	NO	DECEASED
+TCGA-02-0330	YES	NO	NO	NO	NO	null	null	YES	null	null	484	484	null	120	null	null	NO	NO	80	null	WITH TUMOR	YES	NO	DECEASED
+TCGA-02-0332	NO	NO	NO	NO	NO	null	null	YES	null	null	782	782	null	438	null	null	NO	NO	80	null	WITH TUMOR	YES	NO	DECEASED
+TCGA-02-0333	null	NO	NO	NO	NO	null	null	null	null	null	133	133	null	4	null	null	NO	NO	null	null	WITH TUMOR	YES	NO	DECEASED
+TCGA-02-0337	NO	NO	NO	NO	NO	null	null	YES	null	null	764	764	null	691	null	null	NO	NO	80	null	WITH TUMOR	YES	NO	DECEASED
+TCGA-02-0338	null	NO	NO	NO	NO	null	null	null	null	null	322	322	null	167	null	null	NO	NO	80	null	WITH TUMOR	YES	NO	DECEASED
+TCGA-02-0339	null	NO	NO	NO	NO	null	null	null	null	null	377	377	null	148	null	null	NO	NO	80	null	WITH TUMOR	YES	NO	DECEASED
+TCGA-02-0422	null	NO	NO	NO	NO	null	null	YES	null	null	441	441	null	125	null	null	NO	NO	80	null	WITH TUMOR	YES	NO	DECEASED
+TCGA-02-0430	NO	NO	NO	NO	NO	YES	null	YES	null	null	321	321	null	null	null	null	NO	NO	100	null	WITH TUMOR	YES	NO	DECEASED
+TCGA-02-0432	null	NO	NO	NO	NO	null	null	YES	null	null	1433	1433	null	1053	null	null	NO	NO	80	null	WITH TUMOR	YES	NO	DECEASED
+TCGA-02-0439	null	NO	NO	NO	NO	null	null	null	null	null	20	20	null	13	null	1	NO	NO	80	Pre-Operative	WITH TUMOR	YES	NO	DECEASED
+TCGA-02-0440	null	NO	NO	NO	NO	null	null	YES	null	null	345	345	null	212	null	null	NO	NO	80	null	WITH TUMOR	YES	NO	DECEASED
+TCGA-02-0446	null	NO	NO	NO	NO	null	null	null	null	null	281	281	null	null	15	null	NO	NO	80	null	WITH TUMOR	YES	NO	DECEASED
+TCGA-02-0451	null	NO	NO	NO	NO	YES	null	null	433	null	492	492	null	null	427	null	NO	NO	80	null	WITH TUMOR	YES	NO	DECEASED
+TCGA-02-0456	null	NO	NO	NO	NO	null	null	null	null	null	102	102	null	null	12	null	NO	NO	60	null	WITH TUMOR	YES	NO	DECEASED
+TCGA-06-0122	null	null	null	null	null	null	NO	null	null	null	187	8	null	null	null	null	null	null	null	null	null	null	null	DECEASED
+TCGA-06-0124	null	null	null	null	null	null	null	YES	null	null	619	123	null	null	null	null	null	null	null	null	WITH TUMOR	YES	null	DECEASED
+TCGA-06-0125	YES	NO	NO	NO	YES	YES	null	YES	812	null	1448	1439	null	797	null	null	NO	NO	60	Pre-Operative	WITH TUMOR	YES	NO	DECEASED
+TCGA-06-0127	NO	NO	NO	NO	NO	NO	NO	YES	null	null	120	108	null	90	null	null	NO	NO	60	Pre-Operative	WITH TUMOR	YES	NO	DECEASED
+TCGA-06-0128	YES	YES	NO	NO	YES	YES	null	YES	669	null	691	691	null	189	null	null	NO	NO	80	Pre-Operative	WITH TUMOR	YES	YES	DECEASED
+TCGA-06-0129	NO	YES	YES	NO	NO	YES	NO	YES	181	null	1024	988	null	147	null	null	NO	NO	100	Pre-Operative	WITH TUMOR	YES	NO	DECEASED
+TCGA-06-0130	NO	NO	NO	NO	NO	YES	NO	YES	270	null	394	320	null	244	null	null	NO	NO	80	Pre-Operative	WITH TUMOR	YES	NO	DECEASED
+TCGA-06-0132	YES	YES	NO	NO	NO	NO	NO	YES	null	null	771	570	null	482	null	null	NO	NO	null	null	WITH TUMOR	YES	NO	DECEASED
+TCGA-06-0133	YES	YES	NO	NO	NO	null	null	YES	null	null	435	428	null	78	null	null	NO	NO	null	null	WITH TUMOR	YES	YES	DECEASED
+TCGA-06-0137	YES	NO	NO	NO	NO	YES	NO	YES	636	null	812	701	null	487	null	null	NO	NO	null	null	WITH TUMOR	YES	NO	DECEASED
+TCGA-06-0138	YES	NO	NO	NO	YES	YES	NO	YES	406	null	737	674	null	394	null	null	NO	NO	80	Pre-Operative	WITH TUMOR	YES	NO	DECEASED
+TCGA-06-0139	YES	YES	NO	NO	NO	NO	NO	YES	null	null	362	327	null	152	null	null	NO	NO	60	Pre-Operative	WITH TUMOR	YES	NO	DECEASED
+TCGA-06-0141	YES	NO	NO	NO	NO	NO	NO	YES	null	null	313	280	null	145	null	null	NO	NO	80	Pre-Operative	WITH TUMOR	YES	YES	DECEASED
+TCGA-06-0143	NO	YES	NO	NO	NO	YES	NO	YES	279	null	357	357	null	null	264	null	NO	NO	60	null	WITH TUMOR	YES	YES	DECEASED
+TCGA-06-0145	NO	NO	NO	NO	NO	NO	NO	YES	null	null	71	71	null	null	null	null	NO	NO	null	null	WITH TUMOR	NO	NO	DECEASED
+TCGA-06-0146	NO	NO	NO	NO	NO	YES	NO	YES	534	null	611	611	null	530	null	null	NO	NO	null	null	WITH TUMOR	YES	NO	DECEASED
+TCGA-06-0147	YES	NO	NO	NO	YES	null	null	YES	null	null	541	508	null	92	null	null	YES	NO	null	null	WITH TUMOR	YES	NO	DECEASED
+TCGA-06-0148	NO	NO	NO	NO	NO	NO	NO	NO	null	null	307	298	null	188	null	null	NO	NO	null	null	WITH TUMOR	YES	NO	DECEASED
+TCGA-06-0149	NO	NO	NO	NO	NO	NO	null	YES	null	null	261	238	null	203	null	null	NO	NO	80	Pre-Operative	WITH TUMOR	YES	NO	DECEASED
+TCGA-06-0152	YES	NO	NO	YES	NO	YES	NO	YES	173	null	375	359	null	299	null	null	NO	NO	null	Pre-Operative	WITH TUMOR	YES	NO	DECEASED
+TCGA-06-0154	YES	NO	NO	NO	YES	YES	null	YES	234	null	423	389	null	207	null	null	NO	NO	100	Pre-Operative	WITH TUMOR	YES	NO	DECEASED
+TCGA-06-0155	YES	NO	NO	NO	NO	YES	null	NO	257	null	318	263	null	256	null	null	NO	NO	80	Pre-Operative	WITH TUMOR	YES	YES	DECEASED
+TCGA-06-0156	NO	NO	NO	NO	NO	null	null	YES	null	null	178	164	null	null	null	null	NO	NO	null	null	WITH TUMOR	YES	NO	DECEASED
+TCGA-06-0157	NO	NO	NO	NO	NO	null	null	NO	null	null	97	97	null	null	null	null	NO	NO	40	Pre-Operative	WITH TUMOR	YES	NO	DECEASED
+TCGA-06-0158	YES	NO	NO	NO	NO	null	null	NO	null	null	329	166	null	90	null	null	NO	NO	80	Pre-Operative	WITH TUMOR	YES	NO	DECEASED
+TCGA-06-0162	NO	NO	NO	NO	NO	NO	NO	NO	null	null	104	78	null	null	null	null	NO	NO	60	Pre-Operative	WITH TUMOR	YES	YES	DECEASED
+TCGA-06-0164	YES	YES	NO	NO	NO	YES	null	YES	1462	null	1730	1729	null	1428	null	null	NO	NO	100	Pre-Operative	WITH TUMOR	YES	NO	DECEASED
+TCGA-06-0166	NO	NO	NO	NO	YES	NO	NO	YES	null	null	178	161	null	66	null	null	NO	NO	null	null	WITH TUMOR	NO	NO	DECEASED
+TCGA-06-0168	YES	NO	NO	NO	YES	NO	NO	YES	null	null	598	579	null	461	null	null	NO	NO	100	Pre-Operative	WITH TUMOR	YES	NO	DECEASED
+TCGA-06-0169	NO	NO	NO	NO	NO	NO	NO	YES	null	null	100	95	null	92	null	null	NO	NO	80	Pre-Operative	WITH TUMOR	YES	NO	DECEASED
+TCGA-06-0171	YES	NO	NO	NO	NO	YES	NO	YES	119	null	399	396	null	117	null	null	NO	NO	100	Pre-Operative	WITH TUMOR	YES	NO	DECEASED
+TCGA-06-0173	NO	NO	NO	NO	NO	NO	NO	NO	null	null	136	7	null	null	null	null	NO	NO	null	null	WITH TUMOR	NO	NO	DECEASED
+TCGA-06-0174	NO	NO	NO	NO	NO	NO	NO	YES	null	null	98	67	null	47	null	null	NO	NO	80	Pre-Operative	WITH TUMOR	YES	NO	DECEASED
+TCGA-06-0175	NO	NO	NO	NO	YES	NO	NO	NO	null	null	123	83	null	39	null	null	NO	NO	100	Pre-Operative	WITH TUMOR	NO	YES	DECEASED
+TCGA-06-0176	null	null	null	null	YES	NO	NO	null	null	null	null	2767	41	null	null	null	null	null	80	Other	TUMOR FREE	NO	null	LIVING
+TCGA-06-0176	NO	NO	NO	NO	YES	NO	NO	YES	null	null	null	1561	null	41	null	null	NO	NO	80	Pre-Operative	TUMOR FREE	YES	NO	LIVING
+TCGA-06-0177	NO	NO	NO	NO	NO	NO	NO	NO	null	null	126	60	null	null	null	null	NO	NO	60	Pre-Operative	WITH TUMOR	NO	NO	DECEASED
+TCGA-06-0178	null	null	null	null	NO	NO	NO	null	null	null	2681	null	2517	null	null	null	null	null	90	Post-Adjuvant Therapy	WITH TUMOR	YES	null	DECEASED
+TCGA-06-0178	YES	NO	NO	NO	NO	NO	null	YES	null	null	null	1642	null	192	null	null	NO	NO	null	Pre-Operative	TUMOR FREE	YES	NO	LIVING
+TCGA-06-0179	YES	YES	YES	NO	YES	NO	NO	YES	null	null	616	578	null	250	null	null	NO	NO	60	Pre-Operative	WITH TUMOR	YES	NO	DECEASED
+TCGA-06-0182	NO	NO	NO	NO	NO	NO	NO	NO	null	null	111	77	null	null	null	null	NO	NO	60	Pre-Operative	WITH TUMOR	NO	NO	DECEASED
+TCGA-06-0184	null	null	null	null	YES	NO	NO	null	null	null	2126	null	1276	null	null	null	null	null	90	Post-Adjuvant Therapy	WITH TUMOR	YES	null	DECEASED
+TCGA-06-0184	NO	NO	NO	NO	NO	NO	NO	YES	null	null	null	1228	null	null	null	null	NO	NO	80	Pre-Operative	TUMOR FREE	YES	NO	LIVING
+TCGA-06-0185	null	null	null	null	YES	YES	NO	null	711	null	null	2246	711	null	null	null	null	null	100	Pre-Adjuvant Therapy	WITH TUMOR	YES	null	LIVING
+TCGA-06-0185	YES	YES	NO	NO	NO	YES	null	YES	711	null	null	1126	null	711	null	null	NO	NO	100	Pre-Operative	WITH TUMOR	YES	YES	LIVING
+TCGA-06-0187	YES	YES	NO	NO	NO	null	null	YES	null	null	828	801	null	null	531	null	NO	NO	60	Pre-Operative	WITH TUMOR	YES	YES	DECEASED
+TCGA-06-0188	null	null	null	null	NO	NO	NO	null	null	null	1356	null	310	null	null	null	null	null	100	Post-Adjuvant Therapy	WITH TUMOR	YES	null	DECEASED
+TCGA-06-0188	NO	YES	NO	NO	NO	null	null	YES	null	null	null	866	null	null	null	null	NO	NO	100	Pre-Operative	WITH TUMOR	YES	NO	LIVING
+TCGA-06-0189	NO	NO	NO	NO	NO	null	null	YES	null	null	469	454	null	null	null	null	NO	NO	null	null	WITH TUMOR	YES	NO	DECEASED
+TCGA-06-0190	YES	YES	NO	NO	NO	YES	NO	YES	-144	null	317	313	null	88	null	null	NO	NO	80	null	WITH TUMOR	YES	NO	DECEASED
+TCGA-06-0192	null	null	null	null	YES	YES	NO	null	670	null	1184	null	648	null	null	null	null	null	90	Post-Adjuvant Therapy	WITH TUMOR	YES	null	DECEASED
+TCGA-06-0192	NO	NO	NO	NO	NO	NO	NO	YES	null	null	null	556	null	null	null	null	NO	NO	100	Pre-Operative	TUMOR FREE	YES	NO	LIVING
+TCGA-06-0194	NO	NO	NO	NO	NO	YES	NO	YES	125	null	142	142	null	125	null	null	NO	NO	null	Pre-Operative	WITH TUMOR	YES	NO	DECEASED
+TCGA-06-0195	NO	NO	NO	NO	NO	NO	NO	YES	null	null	225	214	null	147	null	null	NO	NO	100	Pre-Operative	WITH TUMOR	YES	NO	DECEASED
+TCGA-06-0197	NO	NO	NO	NO	NO	NO	NO	YES	null	null	168	79	null	47	null	null	NO	NO	null	null	WITH TUMOR	NO	NO	DECEASED
+TCGA-06-0201	NO	NO	NO	NO	NO	NO	NO	NO	null	null	12	12	null	null	null	null	NO	NO	null	null	WITH TUMOR	NO	NO	DECEASED
+TCGA-06-0206	NO	NO	NO	NO	NO	null	null	YES	null	null	232	196	null	null	106	null	NO	NO	null	null	WITH TUMOR	YES	NO	DECEASED
+TCGA-06-0208	NO	NO	NO	NO	NO	NO	NO	YES	null	null	255	166	null	148	null	null	NO	NO	80	Pre-Operative	WITH TUMOR	YES	NO	DECEASED
+TCGA-06-0209	NO	NO	NO	NO	NO	NO	NO	NO	null	null	231	118	null	null	null	null	NO	NO	null	null	WITH TUMOR	YES	NO	DECEASED
+TCGA-06-0210	NO	NO	NO	NO	NO	YES	null	NO	67	null	225	151	null	67	null	null	NO	NO	null	null	WITH TUMOR	YES	NO	DECEASED
+TCGA-06-0211	YES	NO	NO	NO	NO	YES	null	YES	53	null	360	360	null	53	null	null	NO	NO	100	Pre-Operative	WITH TUMOR	YES	NO	DECEASED
+TCGA-06-0213	NO	NO	NO	NO	NO	null	null	NO	null	null	16	6	null	null	null	null	NO	NO	null	null	WITH TUMOR	NO	NO	DECEASED
+TCGA-06-0214	YES	NO	NO	NO	YES	NO	NO	YES	null	null	457	378	null	48	null	null	NO	NO	100	Pre-Operative	WITH TUMOR	NO	NO	DECEASED
+TCGA-06-0216	YES	NO	NO	NO	YES	YES	NO	YES	546	null	735	684	null	175	null	null	NO	NO	80	Pre-Operative	WITH TUMOR	YES	NO	DECEASED
+TCGA-06-0219	NO	NO	NO	NO	NO	NO	NO	NO	null	null	21	10	null	null	null	null	NO	NO	null	null	WITH TUMOR	NO	NO	DECEASED
+TCGA-06-0221	YES	YES	NO	NO	NO	YES	NO	YES	280	null	603	548	null	260	null	null	NO	NO	100	Pre-Operative	WITH TUMOR	YES	YES	DECEASED
+TCGA-06-0237	NO	NO	NO	NO	NO	null	null	YES	null	null	415	314	null	null	null	null	NO	NO	null	null	WITH TUMOR	YES	YES	DECEASED
+TCGA-06-0238	NO	NO	NO	NO	NO	NO	NO	YES	null	null	404	359	null	311	null	null	NO	NO	80	Pre-Operative	WITH TUMOR	YES	NO	DECEASED
+TCGA-06-0241	null	null	null	null	YES	NO	NO	null	null	null	1481	null	196	null	null	null	null	null	70	Post-Adjuvant Therapy	WITH TUMOR	YES	null	DECEASED
+TCGA-06-0241	YES	YES	NO	NO	NO	null	null	YES	null	null	null	455	null	null	196	null	NO	NO	100	Pre-Operative	WITH TUMOR	YES	YES	LIVING
+TCGA-06-0394	YES	NO	NO	NO	NO	NO	NO	NO	null	null	329	313	null	87	null	null	NO	NO	null	Pre-Operative	WITH TUMOR	YES	NO	DECEASED
+TCGA-06-0397	NO	NO	NO	NO	NO	YES	null	YES	20	null	274	168	null	null	null	null	NO	NO	null	Pre-Operative	WITH TUMOR	YES	NO	DECEASED
+TCGA-06-0402	NO	NO	NO	NO	NO	NO	NO	NO	null	null	8	8	null	null	null	null	NO	NO	null	Pre-Operative	WITH TUMOR	NO	NO	DECEASED
+TCGA-06-0409	YES	NO	NO	NO	YES	YES	NO	YES	1267	null	2201	2145	null	334	null	null	NO	NO	null	null	WITH TUMOR	YES	NO	DECEASED
+TCGA-06-0410	NO	NO	NO	NO	NO	null	null	NO	null	null	142	142	null	null	null	null	NO	NO	null	null	WITH TUMOR	NO	NO	DECEASED
+TCGA-06-0412	YES	NO	NO	NO	NO	NO	NO	YES	null	null	291	245	null	130	null	null	NO	NO	null	null	WITH TUMOR	YES	NO	DECEASED
+TCGA-06-0413	NO	NO	NO	NO	NO	NO	null	NO	null	null	96	5	null	null	null	null	NO	NO	null	Pre-Operative	WITH TUMOR	NO	NO	DECEASED
+TCGA-06-0414	NO	NO	NO	NO	NO	YES	null	YES	1055	null	1068	1065	null	null	1013	null	NO	NO	null	null	TUMOR FREE	YES	NO	DECEASED
+TCGA-06-0644	null	null	null	null	YES	NO	NO	null	null	null	384	null	85	null	null	null	null	null	50	Post-Adjuvant Therapy	WITH TUMOR	YES	null	DECEASED
+TCGA-06-0644	YES	YES	NO	NO	YES	null	null	YES	null	null	null	375	null	null	85	null	NO	NO	80	Pre-Operative	WITH TUMOR	YES	NO	LIVING
+TCGA-06-0645	NO	NO	NO	NO	NO	null	null	NO	null	null	175	98	null	null	null	null	NO	NO	null	Pre-Operative	WITH TUMOR	NO	NO	DECEASED
+TCGA-06-0646	NO	NO	NO	NO	NO	YES	NO	YES	103	null	175	136	null	90	null	null	NO	NO	80	Pre-Operative	WITH TUMOR	YES	NO	DECEASED
+TCGA-06-0648	NO	YES	NO	NO	NO	null	null	YES	null	null	297	293	null	201	null	null	NO	NO	80	Pre-Operative	WITH TUMOR	YES	NO	DECEASED
+TCGA-06-0649	NO	NO	NO	NO	NO	null	null	NO	null	null	64	62	null	null	null	null	NO	NO	null	Pre-Operative	WITH TUMOR	NO	NO	DECEASED
+TCGA-06-0650	YES	YES	NO	NO	YES	YES	null	YES	355	null	717	717	null	351	null	0	NO	NO	null	Pre-Adjuvant Therapy	WITH TUMOR	YES	NO	DECEASED
+TCGA-06-0686	YES	YES	NO	NO	NO	YES	NO	YES	159	null	null	285	null	159	null	null	NO	NO	null	Pre-Operative	WITH TUMOR	YES	YES	LIVING
+TCGA-06-0686	null	null	null	null	null	NO	null	YES	null	null	431	null	null	null	null	null	NO	NO	90	Post-Adjuvant Therapy	WITH TUMOR	YES	NO	DECEASED
+TCGA-06-0743	YES	YES	NO	NO	NO	NO	null	YES	null	null	null	678	null	175	null	null	NO	NO	100	Pre-Operative	WITH TUMOR	YES	YES	LIVING
+TCGA-06-0744	null	null	null	null	NO	NO	NO	null	null	null	1426	null	1276	null	null	null	null	null	100	Post-Adjuvant Therapy	WITH TUMOR	YES	null	DECEASED
+TCGA-06-0744	NO	NO	NO	NO	NO	NO	NO	YES	null	null	null	594	null	null	null	null	NO	NO	80	Pre-Operative	TUMOR FREE	YES	NO	LIVING
+TCGA-06-0745	NO	NO	NO	NO	NO	NO	NO	YES	null	null	238	163	null	91	null	null	NO	NO	80	Pre-Operative	WITH TUMOR	YES	NO	DECEASED
+TCGA-06-0747	NO	NO	NO	NO	NO	null	null	YES	null	null	82	82	null	null	null	null	NO	NO	80	Pre-Operative	WITH TUMOR	YES	NO	DECEASED
+TCGA-06-0749	NO	NO	NO	NO	NO	null	null	YES	null	null	81	65	null	null	null	null	NO	NO	null	null	WITH TUMOR	YES	NO	DECEASED
+TCGA-06-0750	NO	NO	NO	NO	NO	null	null	NO	null	null	28	28	null	null	null	null	NO	NO	80	Pre-Operative	WITH TUMOR	NO	NO	DECEASED
+TCGA-06-0875	NO	NO	NO	NO	NO	NO	null	YES	null	null	null	279	null	279	null	null	NO	NO	80	Pre-Operative	WITH TUMOR	YES	NO	LIVING
+TCGA-06-0876	NO	NO	NO	NO	NO	NO	NO	YES	null	null	null	271	null	null	null	null	NO	NO	80	Pre-Operative	WITH TUMOR	YES	NO	LIVING
+TCGA-06-0877	NO	NO	NO	NO	NO	NO	null	NO	null	null	null	204	null	null	null	null	NO	NO	null	null	WITH TUMOR	YES	NO	LIVING
+TCGA-06-0878	YES	NO	NO	NO	NO	NO	null	YES	null	null	null	218	null	null	66	null	NO	NO	80	Pre-Operative	WITH TUMOR	YES	NO	LIVING
+TCGA-06-0879	NO	NO	NO	NO	NO	NO	null	YES	null	null	null	699	null	null	699	null	NO	NO	80	null	WITH TUMOR	YES	YES	LIVING
+TCGA-06-0881	YES	NO	NO	NO	NO	null	null	YES	null	null	null	178	null	null	141	null	NO	NO	80	Pre-Operative	WITH TUMOR	YES	NO	LIVING
+TCGA-06-0882	NO	NO	NO	NO	NO	null	null	YES	null	null	null	165	null	null	null	null	NO	NO	60	Pre-Operative	WITH TUMOR	YES	NO	LIVING
+TCGA-06-0939	null	null	null	null	NO	NO	NO	null	null	null	814	null	360	null	null	null	null	null	80	Post-Adjuvant Therapy	WITH TUMOR	YES	null	DECEASED
+TCGA-06-0939	YES	YES	NO	NO	NO	null	null	YES	null	null	null	637	null	329	null	null	NO	NO	80	Pre-Operative	WITH TUMOR	YES	NO	LIVING
+TCGA-06-1084	null	null	null	null	NO	NO	NO	null	null	null	728	null	208	null	null	null	null	null	70	Post-Adjuvant Therapy	WITH TUMOR	YES	null	DECEASED
+TCGA-06-1084	YES	YES	NO	NO	NO	null	null	YES	null	null	null	226	null	208	null	null	NO	NO	80	Pre-Operative	WITH TUMOR	YES	NO	LIVING
+TCGA-06-1086	NO	NO	NO	NO	NO	null	null	YES	null	null	208	193	null	null	null	null	NO	NO	80	Pre-Operative	WITH TUMOR	YES	NO	DECEASED
+TCGA-06-1087	NO	NO	NO	NO	NO	null	null	YES	null	null	123	109	null	null	109	null	NO	NO	60	Pre-Operative	WITH TUMOR	YES	NO	DECEASED
+TCGA-06-1800	NO	NO	NO	NO	NO	YES	null	YES	750	null	815	815	null	null	750	null	NO	NO	60	Pre-Operative	WITH TUMOR	YES	NO	DECEASED
+TCGA-06-1801	null	null	null	null	YES	NO	NO	null	null	null	360	null	232	null	null	null	null	null	70	Post-Adjuvant Therapy	WITH TUMOR	YES	null	DECEASED
+TCGA-06-1801	YES	NO	NO	NO	NO	null	null	YES	null	null	null	263	null	null	232	null	NO	NO	80	Pre-Operative	WITH TUMOR	YES	NO	LIVING
+TCGA-06-1802	null	null	null	null	YES	NO	NO	null	null	null	466	null	81	null	null	null	null	null	60	Post-Adjuvant Therapy	WITH TUMOR	YES	null	DECEASED
+TCGA-06-1802	YES	NO	NO	NO	NO	null	null	YES	null	null	null	239	null	null	81	null	NO	NO	80	Pre-Operative	WITH TUMOR	YES	NO	LIVING
+TCGA-06-1804	NO	NO	NO	NO	NO	null	null	NO	null	null	413	413	null	null	null	null	NO	NO	null	null	WITH TUMOR	NO	NO	DECEASED
+TCGA-06-1805	NO	NO	NO	NO	NO	null	null	YES	null	null	null	127	null	null	null	null	NO	NO	80	Pre-Operative	WITH TUMOR	YES	NO	LIVING
+TCGA-06-5408	NO	NO	NO	NO	NO	NO	null	YES	null	null	356	341	null	157	null	null	NO	NO	80	Pre-Adjuvant Therapy	WITH TUMOR	YES	NO	DECEASED
+TCGA-06-5410	NO	NO	NO	NO	NO	null	null	NO	null	null	107	107	null	null	null	null	NO	NO	60	Pre-Operative	WITH TUMOR	NO	NO	DECEASED
+TCGA-06-5411	NO	YES	NO	NO	YES	null	null	YES	null	null	254	254	null	213	null	null	NO	NO	80	Pre-Operative	WITH TUMOR	YES	YES	DECEASED
+TCGA-06-5412	NO	NO	NO	NO	NO	null	null	YES	null	null	138	138	null	88	null	null	NO	NO	80	Pre-Adjuvant Therapy	WITH TUMOR	YES	NO	DECEASED
+TCGA-06-5413	NO	YES	NO	NO	NO	null	null	YES	null	null	null	268	null	195	null	null	NO	NO	60	Pre-Adjuvant Therapy	WITH TUMOR	YES	NO	LIVING
+TCGA-06-5414	NO	NO	NO	NO	NO	YES	null	YES	270	null	null	273	null	167	null	null	NO	NO	80	Pre-Operative	WITH TUMOR	YES	NO	LIVING
+TCGA-06-5415	NO	NO	NO	NO	NO	null	null	YES	null	null	null	260	null	null	null	null	NO	NO	100	Pre-Operative	WITH TUMOR	YES	NO	LIVING
+TCGA-06-5416	NO	NO	NO	NO	NO	null	null	YES	null	null	null	204	null	null	null	null	NO	NO	80	Pre-Adjuvant Therapy	WITH TUMOR	YES	NO	LIVING
+TCGA-06-5417	NO	NO	NO	NO	NO	null	null	YES	null	null	null	155	null	null	null	null	NO	NO	80	Pre-Adjuvant Therapy	WITH TUMOR	YES	NO	LIVING
+TCGA-06-5418	NO	NO	NO	NO	NO	null	null	NO	null	null	83	83	null	null	null	null	NO	NO	60	Pre-Adjuvant Therapy	WITH TUMOR	NO	NO	DECEASED
+TCGA-06-5856	NO	NO	NO	NO	NO	null	null	NO	null	null	114	114	null	null	null	null	NO	NO	null	null	WITH TUMOR	NO	NO	DECEASED
+TCGA-06-5858	NO	NO	NO	NO	NO	null	null	YES	null	null	null	186	null	97	null	0	NO	NO	100	Pre-Adjuvant Therapy	WITH TUMOR	YES	NO	LIVING
+TCGA-06-5859	NO	NO	NO	NO	NO	null	null	YES	null	null	null	138	null	null	null	null	NO	NO	40	Post-Adjuvant Therapy	WITH TUMOR	YES	NO	LIVING
+TCGA-06-6388	YES	NO	NO	NO	NO	null	null	YES	null	null	158	119	null	84	null	null	NO	NO	80	Pre-Adjuvant Therapy	WITH TUMOR	YES	YES	DECEASED
+TCGA-06-6389	NO	NO	NO	NO	NO	null	null	YES	null	null	null	236	null	null	null	null	NO	NO	100	Pre-Adjuvant Therapy	WITH TUMOR	YES	NO	LIVING
+TCGA-06-6390	NO	NO	NO	NO	NO	null	null	YES	null	null	163	163	null	null	null	null	NO	NO	80	Pre-Operative	WITH TUMOR	YES	NO	DECEASED
+TCGA-06-6391	NO	NO	NO	NO	NO	null	null	NO	null	null	44	44	null	null	null	1	NO	NO	null	Pre-Operative	WITH TUMOR	NO	NO	DECEASED
+TCGA-06-6693	NO	NO	NO	NO	NO	null	null	NO	null	null	3667	15	null	null	null	null	NO	NO	null	null	WITH TUMOR	NO	NO	DECEASED
+TCGA-06-6694	NO	NO	NO	NO	NO	null	null	null	null	null	224	224	null	null	null	null	null	null	null	null	WITH TUMOR	null	null	DECEASED
+TCGA-06-6695	NO	NO	NO	NO	NO	null	null	YES	null	null	null	252	null	132	null	null	NO	NO	40	Pre-Adjuvant Therapy	WITH TUMOR	YES	NO	LIVING
+TCGA-06-6697	YES	YES	NO	NO	NO	null	null	YES	null	null	null	391	null	306	null	null	NO	NO	80	Pre-Adjuvant Therapy	WITH TUMOR	YES	NO	LIVING
+TCGA-06-6698	NO	NO	NO	NO	NO	null	null	YES	null	null	null	145	null	null	null	null	NO	NO	null	null	WITH TUMOR	YES	NO	LIVING
+TCGA-06-6699	NO	NO	NO	NO	NO	null	null	YES	null	null	null	47	null	null	null	null	NO	NO	null	null	WITH TUMOR	YES	NO	LIVING
+TCGA-06-6700	NO	NO	NO	NO	NO	null	null	YES	null	null	null	145	null	null	null	null	NO	NO	100	Pre-Adjuvant Therapy	WITH TUMOR	YES	YES	LIVING
+TCGA-06-6701	NO	NO	NO	NO	NO	null	null	YES	null	null	null	151	null	null	null	null	NO	NO	null	null	WITH TUMOR	YES	NO	LIVING
+TCGA-08-0244	null	null	null	null	null	YES	NO	YES	515	null	690	690	null	null	483	null	NO	NO	80	Other	WITH TUMOR	YES	YES	DECEASED
+TCGA-08-0245	YES	NO	NO	NO	YES	null	null	NO	null	null	1151	1057	null	463	null	null	NO	NO	80	Post-Adjuvant Therapy	WITH TUMOR	YES	NO	DECEASED
+TCGA-08-0246	NO	NO	NO	NO	NO	NO	null	YES	null	null	127	119	null	92	null	null	NO	NO	80	Other	WITH TUMOR	YES	NO	DECEASED
+TCGA-08-0344	YES	NO	NO	NO	YES	YES	NO	NO	1936	null	3524	3310	null	null	1880	null	NO	NO	80	Other	WITH TUMOR	YES	NO	DECEASED
+TCGA-08-0345	NO	NO	NO	NO	NO	NO	NO	NO	null	null	53	53	null	null	null	null	NO	NO	60	Pre-Adjuvant Therapy	WITH TUMOR	YES	NO	DECEASED
+TCGA-08-0346	NO	NO	NO	NO	NO	YES	NO	YES	130	null	256	132	null	75	null	null	NO	NO	80	Pre-Adjuvant Therapy	WITH TUMOR	YES	NO	DECEASED
+TCGA-08-0347	YES	NO	NO	NO	YES	YES	NO	YES	472	null	782	419	null	59	null	null	NO	NO	100	Other	WITH TUMOR	YES	NO	DECEASED
+TCGA-08-0348	YES	YES	NO	NO	YES	null	null	YES	null	null	370	316	null	null	197	null	NO	NO	80	Other	WITH TUMOR	YES	NO	DECEASED
+TCGA-08-0349	YES	NO	NO	NO	NO	NO	null	YES	null	null	298	231	null	92	null	null	NO	NO	null	null	WITH TUMOR	YES	YES	DECEASED
+TCGA-08-0350	YES	YES	NO	NO	NO	NO	NO	NO	null	null	888	103	null	null	438	null	NO	NO	80	Post-Adjuvant Therapy	WITH TUMOR	YES	NO	DECEASED
+TCGA-08-0351	YES	YES	NO	NO	NO	YES	NO	YES	1559	null	1986	1636	null	null	1542	null	NO	NO	80	Other	WITH TUMOR	YES	YES	DECEASED
+TCGA-08-0352	NO	NO	NO	NO	NO	NO	NO	NO	null	null	39	39	null	null	null	null	NO	NO	null	null	WITH TUMOR	NO	NO	DECEASED
+TCGA-08-0353	null	null	null	null	YES	null	null	YES	null	null	256	195	null	164	null	null	NO	NO	80	Post-Adjuvant Therapy	WITH TUMOR	YES	NO	DECEASED
+TCGA-08-0354	YES	YES	NO	NO	NO	null	NO	YES	null	null	546	458	null	253	null	null	NO	NO	60	Post-Adjuvant Therapy	WITH TUMOR	YES	NO	DECEASED
+TCGA-08-0355	YES	YES	NO	NO	NO	YES	NO	YES	615	null	747	685	null	null	519	null	NO	NO	100	Other	WITH TUMOR	YES	YES	DECEASED
+TCGA-08-0356	NO	NO	NO	NO	NO	null	null	YES	null	null	946	447	null	null	447	null	NO	NO	80	Pre-Adjuvant Therapy	WITH TUMOR	YES	NO	DECEASED
+TCGA-08-0357	YES	NO	YES	NO	NO	YES	NO	YES	180	null	1143	1084	null	null	155	null	NO	NO	80	Other	WITH TUMOR	YES	YES	DECEASED
+TCGA-08-0358	YES	NO	YES	NO	NO	YES	NO	YES	285	null	678	593	null	null	263	null	NO	YES	80	Pre-Adjuvant Therapy	WITH TUMOR	YES	YES	DECEASED
+TCGA-08-0359	NO	NO	NO	NO	NO	NO	NO	NO	null	null	102	29	null	null	null	null	NO	NO	null	null	WITH TUMOR	YES	NO	DECEASED
+TCGA-08-0360	NO	NO	YES	NO	NO	YES	NO	YES	127	null	468	352	null	null	112	null	NO	YES	80	Pre-Adjuvant Therapy	WITH TUMOR	YES	NO	DECEASED
+TCGA-08-0375	NO	NO	NO	NO	YES	NO	null	NO	null	null	372	279	null	null	161	null	NO	NO	100	Post-Adjuvant Therapy	WITH TUMOR	YES	NO	DECEASED
+TCGA-08-0380	YES	YES	NO	NO	NO	NO	null	NO	null	null	454	330	null	151	null	null	NO	NO	80	Pre-Adjuvant Therapy	WITH TUMOR	YES	YES	DECEASED
+TCGA-08-0385	NO	NO	NO	NO	NO	null	null	null	null	null	82	31	null	null	null	null	null	null	60	Pre-Adjuvant Therapy	WITH TUMOR	null	null	DECEASED
+TCGA-08-0386	NO	NO	YES	NO	NO	YES	NO	YES	442	null	548	478	null	null	427	null	NO	NO	80	Pre-Adjuvant Therapy	WITH TUMOR	YES	YES	DECEASED
+TCGA-08-0389	null	null	null	null	null	null	null	YES	null	null	467	97	null	null	null	null	NO	NO	80	Other	WITH TUMOR	YES	YES	DECEASED
+TCGA-08-0390	NO	NO	NO	NO	NO	NO	NO	YES	null	null	425	322	null	null	null	null	NO	NO	60	Post-Adjuvant Therapy	WITH TUMOR	YES	NO	DECEASED
+TCGA-08-0392	NO	NO	NO	NO	NO	NO	NO	NO	null	null	22	9	null	null	null	null	NO	NO	null	null	WITH TUMOR	NO	NO	DECEASED
+TCGA-08-0510	NO	NO	YES	NO	NO	NO	null	YES	null	null	129	106	null	null	89	null	NO	NO	80	Other	WITH TUMOR	YES	YES	DECEASED
+TCGA-08-0511	null	null	null	null	null	null	null	YES	null	null	235	235	null	null	null	null	NO	NO	80	Other	WITH TUMOR	YES	NO	DECEASED
+TCGA-08-0512	NO	NO	NO	NO	NO	NO	NO	NO	null	null	1282	358	null	231	null	null	NO	NO	100	Pre-Operative	WITH TUMOR	YES	NO	DECEASED
+TCGA-08-0514	NO	NO	NO	NO	NO	NO	NO	NO	null	null	337	259	null	null	null	null	NO	NO	40	Post-Adjuvant Therapy	WITH TUMOR	YES	NO	DECEASED
+TCGA-08-0516	null	null	null	null	YES	YES	NO	NO	171	null	596	561	null	40	null	null	NO	NO	null	null	WITH TUMOR	YES	NO	DECEASED
+TCGA-08-0517	YES	NO	NO	NO	NO	YES	NO	NO	1049	null	1785	1770	null	null	1024	null	NO	NO	80	Post-Adjuvant Therapy	WITH TUMOR	YES	NO	DECEASED
+TCGA-08-0518	null	null	null	null	null	null	null	NO	null	null	588	39	null	134	null	null	NO	NO	80	Pre-Adjuvant Therapy	WITH TUMOR	YES	NO	DECEASED
+TCGA-08-0520	YES	NO	NO	NO	YES	NO	null	NO	null	null	326	326	null	null	105	null	NO	NO	null	null	WITH TUMOR	YES	NO	DECEASED
+TCGA-08-0521	NO	NO	NO	NO	NO	YES	YES	YES	125	null	146	146	null	125	null	null	NO	NO	60	Post-Adjuvant Therapy	WITH TUMOR	YES	NO	DECEASED
+TCGA-08-0522	YES	YES	NO	YES	NO	YES	NO	YES	266	null	635	555	null	266	null	null	NO	NO	80	Other	WITH TUMOR	YES	NO	DECEASED
+TCGA-08-0524	YES	YES	NO	NO	NO	null	null	YES	null	null	220	198	null	61	null	null	NO	NO	80	Other	WITH TUMOR	YES	NO	DECEASED
+TCGA-08-0525	NO	YES	null	NO	NO	YES	NO	YES	438	null	486	486	null	343	null	null	NO	NO	80	Other	WITH TUMOR	YES	NO	DECEASED
+TCGA-08-0529	NO	NO	YES	NO	NO	YES	NO	YES	343	null	559	526	null	null	328	null	NO	NO	80	Pre-Adjuvant Therapy	WITH TUMOR	YES	NO	DECEASED
+TCGA-08-0531	NO	NO	NO	NO	NO	NO	NO	YES	null	null	230	168	null	null	null	null	NO	NO	80	Pre-Adjuvant Therapy	WITH TUMOR	YES	NO	DECEASED
+TCGA-12-0615	YES	YES	NO	NO	NO	null	null	YES	null	null	466	426	null	159	null	null	NO	NO	60	Pre-Adjuvant Therapy	WITH TUMOR	YES	YES	DECEASED
+TCGA-12-0616	YES	YES	NO	YES	NO	null	null	YES	null	null	447	438	null	397	null	null	NO	NO	100	Pre-Operative	WITH TUMOR	YES	YES	DECEASED
+TCGA-12-0618	NO	NO	NO	NO	NO	null	null	YES	null	null	394	49	null	null	null	null	NO	NO	60	Pre-Adjuvant Therapy	null	YES	NO	DECEASED
+TCGA-12-0619	YES	YES	NO	NO	NO	NO	NO	YES	null	null	1062	316	null	203	null	null	NO	NO	80	Pre-Operative	WITH TUMOR	YES	YES	DECEASED
+TCGA-12-0620	YES	NO	NO	NO	YES	null	null	YES	null	null	318	181	null	null	null	null	NO	NO	100	Pre-Adjuvant Therapy	WITH TUMOR	YES	NO	DECEASED
+TCGA-12-0654	NO	YES	NO	NO	YES	null	null	NO	null	null	231	218	null	216	null	null	NO	NO	null	null	WITH TUMOR	YES	YES	DECEASED
+TCGA-12-0656	YES	NO	NO	NO	NO	YES	null	YES	1467	null	2883	2004	null	1467	null	null	NO	NO	80	Post-Adjuvant Therapy	WITH TUMOR	YES	YES	DECEASED
+TCGA-12-0657	NO	NO	NO	NO	NO	NO	null	NO	null	null	3	3	null	null	null	null	NO	NO	null	null	WITH TUMOR	NO	NO	DECEASED
+TCGA-12-0662	YES	YES	YES	YES	NO	YES	null	YES	857	null	1161	1161	null	599	null	null	YES	YES	80	Post-Adjuvant Therapy	WITH TUMOR	YES	YES	DECEASED
+TCGA-12-0670	NO	NO	NO	NO	NO	YES	NO	YES	744	null	790	790	null	379	null	null	YES	YES	100	Pre-Adjuvant Therapy	null	YES	YES	DECEASED
+TCGA-12-0688	YES	NO	NO	NO	NO	null	null	YES	null	null	811	734	null	228	null	null	YES	NO	100	Post-Adjuvant Therapy	WITH TUMOR	YES	NO	DECEASED
+TCGA-12-0691	YES	NO	NO	NO	NO	YES	null	YES	19	null	368	185	null	97	null	null	NO	NO	100	Post-Adjuvant Therapy	WITH TUMOR	YES	NO	DECEASED
+TCGA-12-0692	NO	NO	NO	NO	NO	NO	NO	YES	null	null	111	80	null	35	null	null	NO	NO	60	Pre-Adjuvant Therapy	WITH TUMOR	NO	NO	DECEASED
+TCGA-12-0703	YES	NO	NO	NO	YES	null	null	YES	null	null	619	550	null	207	null	null	NO	NO	80	Post-Adjuvant Therapy	WITH TUMOR	YES	YES	DECEASED
+TCGA-12-0769	YES	NO	NO	NO	YES	null	null	YES	null	null	458	378	null	378	null	null	NO	NO	100	Pre-Adjuvant Therapy	WITH TUMOR	YES	NO	DECEASED
+TCGA-12-0772	YES	YES	NO	NO	YES	YES	null	YES	29	null	1638	1615	null	607	null	null	NO	NO	80	Pre-Adjuvant Therapy	WITH TUMOR	YES	YES	DECEASED
+TCGA-12-0773	YES	YES	NO	NO	NO	YES	null	YES	748	null	1315	1311	null	725	null	null	YES	NO	100	Pre-Adjuvant Therapy	WITH TUMOR	YES	YES	DECEASED
+TCGA-12-0775	YES	NO	NO	NO	NO	null	null	YES	null	null	232	167	null	94	null	null	NO	NO	60	Post-Adjuvant Therapy	WITH TUMOR	YES	NO	DECEASED
+TCGA-12-0776	YES	NO	NO	NO	NO	NO	NO	YES	null	null	296	277	null	127	null	null	NO	NO	80	Pre-Adjuvant Therapy	WITH TUMOR	YES	NO	DECEASED
+TCGA-12-0778	YES	YES	NO	NO	YES	null	null	YES	null	null	453	451	null	231	null	null	NO	NO	80	Post-Adjuvant Therapy	WITH TUMOR	YES	YES	DECEASED
+TCGA-12-0780	YES	YES	NO	NO	NO	NO	NO	YES	null	null	452	434	null	91	null	null	NO	NO	80	Pre-Adjuvant Therapy	WITH TUMOR	YES	YES	DECEASED
+TCGA-12-0818	NO	NO	NO	NO	NO	YES	NO	YES	1642	null	2790	2790	null	null	null	null	NO	NO	null	null	null	YES	YES	DECEASED
+TCGA-12-0819	YES	NO	NO	NO	NO	NO	NO	YES	null	null	753	753	null	null	427	null	NO	NO	60	Post-Adjuvant Therapy	WITH TUMOR	YES	YES	DECEASED
+TCGA-12-0820	YES	YES	NO	YES	NO	NO	NO	YES	null	null	562	562	null	null	272	null	YES	NO	100	Pre-Operative	WITH TUMOR	YES	YES	DECEASED
+TCGA-12-0821	YES	NO	NO	NO	NO	NO	NO	YES	null	null	323	323	null	null	259	null	NO	NO	60	Post-Adjuvant Therapy	WITH TUMOR	YES	NO	DECEASED
+TCGA-12-0822	YES	YES	NO	NO	NO	YES	NO	YES	111	null	715	715	null	null	91	null	NO	NO	80	Post-Adjuvant Therapy	WITH TUMOR	YES	YES	DECEASED
+TCGA-12-0826	null	null	null	null	null	null	null	null	null	null	845	845	null	null	null	null	null	null	null	null	null	YES	null	DECEASED
+TCGA-12-0827	NO	NO	NO	NO	NO	YES	NO	YES	452	null	1179	1179	null	null	null	null	YES	NO	100	Post-Adjuvant Therapy	WITH TUMOR	YES	YES	DECEASED
+TCGA-12-0828	NO	NO	NO	NO	NO	YES	NO	YES	13	null	271	271	null	13	null	null	NO	NO	60	Pre-Adjuvant Therapy	WITH TUMOR	YES	NO	DECEASED
+TCGA-12-0829	YES	NO	YES	NO	NO	YES	NO	YES	467	null	626	626	null	null	473	null	NO	YES	80	Pre-Adjuvant Therapy	WITH TUMOR	YES	YES	DECEASED
+TCGA-12-1088	NO	NO	NO	NO	NO	NO	NO	YES	null	null	3880	3880	null	null	null	null	NO	NO	80	Pre-Adjuvant Therapy	null	YES	NO	DECEASED
+TCGA-12-1089	NO	NO	NO	NO	NO	NO	NO	YES	null	null	177	177	null	null	null	null	NO	NO	null	null	WITH TUMOR	YES	NO	DECEASED
+TCGA-12-1090	YES	NO	NO	NO	YES	null	null	YES	null	null	230	189	null	null	null	null	NO	NO	60	Post-Adjuvant Therapy	WITH TUMOR	YES	NO	DECEASED
+TCGA-12-1091	YES	NO	NO	YES	YES	YES	null	YES	812	null	1010	929	null	null	56	null	YES	NO	80	Pre-Adjuvant Therapy	WITH TUMOR	YES	NO	DECEASED
+TCGA-12-1092	YES	NO	NO	NO	NO	NO	NO	YES	null	null	661	658	null	null	637	null	NO	NO	80	Pre-Adjuvant Therapy	WITH TUMOR	YES	YES	DECEASED
+TCGA-12-1093	YES	NO	NO	NO	NO	YES	NO	YES	322	null	486	364	null	null	322	null	NO	YES	80	Pre-Adjuvant Therapy	WITH TUMOR	YES	NO	DECEASED
+TCGA-12-1094	YES	YES	NO	NO	NO	YES	NO	YES	223	null	372	346	null	null	186	null	NO	YES	100	Pre-Adjuvant Therapy	WITH TUMOR	YES	YES	DECEASED
+TCGA-12-1095	YES	YES	NO	NO	NO	NO	NO	YES	null	null	482	482	null	96	null	null	NO	NO	100	Pre-Adjuvant Therapy	WITH TUMOR	YES	YES	DECEASED
+TCGA-12-1096	NO	NO	NO	NO	NO	NO	NO	YES	null	null	277	277	null	null	270	null	NO	YES	80	Pre-Adjuvant Therapy	WITH TUMOR	NO	YES	DECEASED
+TCGA-12-1097	YES	YES	NO	NO	NO	NO	NO	YES	null	null	442	442	null	166	null	null	NO	NO	100	Pre-Operative	WITH TUMOR	YES	YES	DECEASED
+TCGA-12-1098	NO	NO	NO	NO	NO	NO	NO	YES	null	null	121	121	null	null	93	null	NO	NO	60	Pre-Adjuvant Therapy	WITH TUMOR	YES	NO	DECEASED
+TCGA-12-1099	YES	YES	NO	NO	YES	NO	NO	YES	null	null	125	103	null	null	62	null	NO	NO	80	Pre-Adjuvant Therapy	WITH TUMOR	YES	YES	DECEASED
+TCGA-12-1597	YES	NO	NO	NO	NO	null	null	YES	null	null	675	427	null	180	null	null	NO	NO	80	Post-Adjuvant Therapy	WITH TUMOR	YES	NO	DECEASED
+TCGA-12-1598	NO	NO	NO	NO	NO	null	null	YES	null	null	476	287	null	null	null	null	NO	NO	null	null	WITH TUMOR	YES	NO	DECEASED
+TCGA-12-1599	YES	YES	NO	NO	NO	null	null	YES	null	null	781	769	null	89	null	null	NO	NO	80	Pre-Adjuvant Therapy	WITH TUMOR	YES	YES	DECEASED
+TCGA-12-1600	NO	NO	NO	NO	NO	null	null	YES	null	null	448	414	null	404	null	null	NO	NO	80	Post-Adjuvant Therapy	WITH TUMOR	YES	NO	DECEASED
+TCGA-12-1602	YES	NO	NO	NO	NO	null	null	YES	null	null	205	194	null	139	null	null	NO	NO	60	Pre-Adjuvant Therapy	WITH TUMOR	YES	NO	DECEASED
+TCGA-12-3644	YES	YES	NO	NO	YES	YES	null	YES	857	null	1818	1807	null	1142	null	null	NO	NO	60	Post-Adjuvant Therapy	WITH TUMOR	YES	YES	DECEASED
+TCGA-12-3646	YES	YES	NO	NO	YES	YES	null	YES	1006	null	1338	1314	null	1314	null	null	NO	NO	80	Pre-Adjuvant Therapy	WITH TUMOR	YES	YES	DECEASED
+TCGA-12-3648	YES	YES	YES	NO	YES	YES	null	YES	467	null	819	784	null	86	null	null	NO	YES	80	Post-Adjuvant Therapy	WITH TUMOR	YES	YES	DECEASED
+TCGA-12-3649	NO	NO	NO	NO	NO	null	null	YES	null	null	463	351	null	351	null	null	NO	YES	80	Pre-Adjuvant Therapy	WITH TUMOR	NO	YES	DECEASED
+TCGA-12-3650	YES	YES	NO	NO	NO	null	null	YES	null	null	333	333	null	239	null	null	NO	NO	80	Pre-Adjuvant Therapy	WITH TUMOR	YES	YES	DECEASED
+TCGA-12-3651	YES	YES	NO	NO	YES	null	null	YES	null	null	386	358	null	358	null	null	NO	NO	80	Pre-Adjuvant Therapy	WITH TUMOR	YES	YES	DECEASED
+TCGA-12-3652	YES	YES	NO	NO	NO	null	null	YES	null	null	1062	1050	null	203	null	null	NO	NO	80	Pre-Adjuvant Therapy	WITH TUMOR	YES	YES	DECEASED
+TCGA-12-3653	YES	YES	NO	NO	NO	YES	null	YES	231	null	442	357	null	223	null	null	NO	YES	80	Pre-Adjuvant Therapy	WITH TUMOR	YES	YES	DECEASED
+TCGA-12-5295	NO	NO	NO	NO	NO	null	null	YES	null	null	453	398	null	398	null	1	NO	NO	null	Pre-Adjuvant Therapy	WITH TUMOR	YES	YES	DECEASED
+TCGA-12-5299	NO	NO	NO	NO	NO	null	null	YES	null	null	98	98	null	null	null	null	NO	NO	80	Pre-Adjuvant Therapy	WITH TUMOR	YES	YES	DECEASED
+TCGA-12-5301	NO	NO	NO	NO	NO	null	null	YES	null	null	61	61	null	null	null	null	NO	NO	80	Pre-Adjuvant Therapy	WITH TUMOR	YES	NO	DECEASED
+TCGA-14-0736	YES	NO	NO	YES	NO	YES	NO	NO	206	null	459	459	null	null	127	null	YES	NO	100	Pre-Adjuvant Therapy	WITH TUMOR	YES	NO	DECEASED
+TCGA-14-0740	NO	NO	NO	NO	NO	null	null	NO	null	null	364	364	null	null	null	null	YES	NO	60	Pre-Adjuvant Therapy	WITH TUMOR	YES	NO	DECEASED
+TCGA-14-0781	NO	NO	NO	NO	NO	null	null	NO	null	null	29	29	null	null	null	null	YES	NO	null	null	WITH TUMOR	NO	NO	DECEASED
+TCGA-14-0783	NO	NO	NO	NO	NO	NO	NO	YES	null	null	188	188	null	null	null	null	YES	NO	80	Pre-Adjuvant Therapy	WITH TUMOR	YES	NO	DECEASED
+TCGA-14-0786	YES	NO	NO	YES	NO	NO	NO	NO	null	null	701	701	null	null	127	null	YES	NO	80	Pre-Adjuvant Therapy	WITH TUMOR	YES	NO	DECEASED
+TCGA-14-0787	NO	NO	NO	NO	NO	NO	NO	NO	null	null	68	68	null	null	null	null	YES	NO	60	Post-Adjuvant Therapy	null	NO	NO	DECEASED
+TCGA-14-0789	YES	NO	NO	YES	NO	YES	NO	YES	118	null	342	342	null	105	null	null	YES	NO	40	Post-Adjuvant Therapy	null	YES	NO	DECEASED
+TCGA-14-0812	NO	NO	NO	NO	NO	NO	NO	YES	null	null	99	99	null	null	null	null	YES	NO	40	Post-Adjuvant Therapy	WITH TUMOR	NO	NO	DECEASED
+TCGA-14-0813	NO	NO	NO	NO	NO	null	null	NO	null	null	41	41	null	null	null	null	YES	NO	60	Other	null	NO	NO	DECEASED
+TCGA-14-0817	NO	NO	NO	NO	NO	null	null	NO	null	null	164	164	null	null	null	null	YES	NO	60	Other	null	NO	NO	DECEASED
+TCGA-14-0862	NO	NO	NO	NO	NO	null	null	NO	null	null	88	88	null	null	null	null	YES	NO	40	Other	WITH TUMOR	NO	NO	DECEASED
+TCGA-14-0865	NO	NO	NO	YES	YES	YES	NO	YES	238	null	502	502	null	215	null	null	YES	NO	60	Pre-Adjuvant Therapy	WITH TUMOR	YES	NO	DECEASED
+TCGA-14-0866	YES	NO	NO	YES	NO	YES	NO	YES	237	null	801	801	null	null	97	null	YES	NO	80	Pre-Adjuvant Therapy	null	YES	NO	DECEASED
+TCGA-14-0867	NO	NO	NO	NO	NO	null	null	NO	null	null	62	62	null	null	null	null	YES	NO	60	Other	null	NO	NO	DECEASED
+TCGA-14-0871	NO	NO	NO	YES	NO	NO	NO	NO	null	null	879	879	null	null	null	null	YES	NO	60	Post-Adjuvant Therapy	null	YES	NO	DECEASED
+TCGA-14-1034	YES	NO	NO	YES	NO	YES	NO	NO	448	null	485	485	null	274	null	null	YES	NO	60	Pre-Adjuvant Therapy	WITH TUMOR	YES	NO	DECEASED
+TCGA-14-1037	YES	YES	NO	YES	NO	null	null	YES	null	null	587	587	null	null	326	null	YES	NO	60	Pre-Adjuvant Therapy	WITH TUMOR	YES	YES	DECEASED
+TCGA-14-1043	NO	NO	NO	NO	NO	null	null	NO	null	null	24	24	null	null	null	null	YES	NO	40	Pre-Adjuvant Therapy	WITH TUMOR	YES	NO	DECEASED
+TCGA-14-1395	NO	NO	NO	NO	NO	NO	NO	YES	null	null	42	42	null	null	null	null	YES	NO	80	Pre-Operative	WITH TUMOR	NO	NO	DECEASED
+TCGA-14-1396	NO	NO	NO	NO	NO	null	null	NO	null	null	34	34	null	null	null	null	YES	NO	60	Other	WITH TUMOR	NO	NO	DECEASED
+TCGA-14-1401	NO	NO	NO	NO	NO	null	null	NO	null	null	114	114	null	null	null	null	YES	NO	80	Other	WITH TUMOR	NO	NO	DECEASED
+TCGA-14-1402	YES	YES	NO	YES	NO	YES	NO	YES	867	null	974	974	null	333	null	null	YES	NO	80	Pre-Adjuvant Therapy	WITH TUMOR	YES	NO	DECEASED
+TCGA-14-1450	YES	YES	NO	YES	NO	null	null	YES	null	null	null	1788	null	826	null	null	YES	NO	80	Post-Adjuvant Therapy	WITH TUMOR	YES	YES	LIVING
+TCGA-14-1451	YES	YES	NO	YES	YES	YES	NO	NO	153	null	703	703	null	null	19	null	YES	NO	80	Pre-Adjuvant Therapy	WITH TUMOR	NO	NO	DECEASED
+TCGA-14-1452	YES	NO	NO	YES	NO	null	null	YES	null	null	216	216	null	null	172	null	YES	NO	80	Post-Adjuvant Therapy	WITH TUMOR	YES	NO	DECEASED
+TCGA-14-1453	NO	NO	NO	NO	NO	null	null	NO	null	null	35	35	null	null	null	null	YES	NO	60	Other	WITH TUMOR	NO	NO	DECEASED
+TCGA-14-1454	YES	NO	NO	YES	NO	null	null	YES	null	null	917	917	null	null	290	null	YES	NO	60	Other	WITH TUMOR	YES	NO	DECEASED
+TCGA-14-1455	NO	NO	NO	NO	NO	NO	NO	YES	null	null	28	28	null	null	null	null	YES	NO	null	null	WITH TUMOR	NO	NO	DECEASED
+TCGA-14-1458	YES	YES	NO	YES	NO	NO	NO	YES	null	null	202	186	null	null	80	null	YES	NO	80	Pre-Adjuvant Therapy	null	YES	NO	DECEASED
+TCGA-14-1459	NO	NO	NO	YES	NO	YES	NO	YES	291	null	378	378	null	275	null	null	YES	NO	100	Pre-Adjuvant Therapy	WITH TUMOR	YES	NO	DECEASED
+TCGA-14-1794	NO	NO	NO	NO	NO	NO	NO	NO	null	null	30	30	null	null	null	null	YES	NO	null	null	WITH TUMOR	YES	NO	DECEASED
+TCGA-14-1795	NO	NO	NO	NO	NO	NO	NO	YES	null	null	59	59	null	null	null	null	YES	NO	60	Post-Adjuvant Therapy	WITH TUMOR	NO	NO	DECEASED
+TCGA-14-1821	NO	NO	NO	YES	NO	null	null	YES	null	null	540	540	null	null	331	null	YES	NO	80	Pre-Adjuvant Therapy	WITH TUMOR	YES	NO	DECEASED
+TCGA-14-1823	YES	YES	NO	YES	NO	null	null	YES	null	null	542	542	null	null	139	null	YES	NO	80	Pre-Adjuvant Therapy	WITH TUMOR	YES	NO	DECEASED
+TCGA-14-1825	NO	NO	NO	YES	NO	null	null	NO	null	null	232	232	null	91	null	null	YES	NO	80	Pre-Adjuvant Therapy	WITH TUMOR	YES	NO	DECEASED
+TCGA-14-1827	NO	NO	NO	NO	NO	null	null	YES	null	null	179	179	null	null	null	null	YES	NO	100	Pre-Adjuvant Therapy	null	NO	NO	DECEASED
+TCGA-14-1829	NO	NO	NO	NO	NO	null	null	YES	null	null	null	217	null	null	null	null	YES	NO	60	Pre-Operative	WITH TUMOR	YES	NO	LIVING
+TCGA-14-2555	NO	NO	NO	NO	NO	null	null	YES	null	null	null	242	null	null	null	null	YES	NO	80	Pre-Adjuvant Therapy	null	YES	NO	LIVING
+TCGA-14-3476	NO	NO	NO	NO	NO	null	null	NO	null	null	12	12	null	9	null	null	YES	NO	null	null	null	NO	NO	DECEASED
+TCGA-14-3477	NO	NO	NO	NO	NO	null	null	YES	null	null	null	114	null	null	null	null	YES	NO	80	Pre-Adjuvant Therapy	WITH TUMOR	YES	YES	LIVING
+TCGA-14-4157	NO	NO	NO	NO	NO	null	null	YES	null	null	null	103	null	95	null	null	YES	NO	60	Pre-Adjuvant Therapy	null	YES	NO	LIVING
+TCGA-15-0742	YES	YES	NO	NO	NO	NO	null	YES	null	null	418	300	null	231	null	null	NO	NO	80	Pre-Adjuvant Therapy	null	YES	YES	DECEASED
+TCGA-15-1446	null	null	null	NO	NO	YES	null	YES	578	null	null	581	null	null	443	1	NO	NO	80	Pre-Adjuvant Therapy	WITH TUMOR	YES	NO	LIVING
+TCGA-15-1447	NO	NO	NO	NO	NO	YES	null	YES	499	null	null	1618	null	null	340	1	NO	NO	80	Pre-Operative	WITH TUMOR	YES	NO	LIVING
+TCGA-15-1449	NO	NO	NO	NO	NO	null	null	YES	null	null	404	167	null	null	74	2	NO	NO	60	Pre-Adjuvant Therapy	WITH TUMOR	YES	NO	DECEASED
+TCGA-16-0846	NO	NO	NO	NO	NO	NO	NO	NO	null	null	119	119	null	null	null	null	NO	NO	null	null	WITH TUMOR	NO	NO	DECEASED
+TCGA-16-0848	YES	NO	NO	NO	NO	YES	null	YES	105	null	535	302	null	null	129	null	NO	NO	null	null	WITH TUMOR	YES	NO	DECEASED
+TCGA-16-0849	NO	NO	NO	NO	NO	NO	NO	YES	null	null	null	793	null	null	null	null	NO	NO	null	null	null	YES	NO	LIVING
+TCGA-16-0850	NO	NO	NO	NO	NO	NO	NO	YES	null	null	498	496	null	null	83	null	NO	NO	null	null	WITH TUMOR	YES	NO	DECEASED
+TCGA-16-0861	NO	NO	NO	NO	NO	NO	NO	YES	null	null	null	130	null	null	93	null	NO	NO	null	null	null	YES	NO	null
+TCGA-16-1045	YES	NO	NO	NO	NO	null	null	YES	null	null	882	882	null	null	654	null	NO	NO	null	null	WITH TUMOR	YES	NO	DECEASED
+TCGA-16-1047	NO	NO	NO	NO	NO	null	null	NO	null	null	139	25	null	25	null	null	NO	NO	null	null	WITH TUMOR	NO	NO	DECEASED
+TCGA-16-1055	NO	NO	NO	NO	NO	null	null	YES	null	null	313	301	null	null	288	null	NO	NO	null	null	WITH TUMOR	YES	NO	DECEASED
+TCGA-16-1056	NO	NO	NO	NO	NO	null	null	YES	null	null	426	406	null	null	239	null	NO	NO	null	null	WITH TUMOR	YES	NO	DECEASED
+TCGA-16-1060	NO	NO	NO	NO	NO	null	null	NO	null	null	278	111	null	111	null	null	NO	NO	null	null	WITH TUMOR	YES	NO	DECEASED
+TCGA-16-1062	NO	NO	NO	NO	NO	null	null	YES	null	null	646	556	null	518	null	null	NO	NO	null	null	WITH TUMOR	YES	NO	DECEASED
+TCGA-16-1063	NO	NO	NO	NO	NO	null	null	YES	null	null	425	425	null	369	null	null	NO	NO	null	null	WITH TUMOR	YES	NO	DECEASED
+TCGA-16-1460	null	NO	NO	NO	null	null	null	YES	null	null	null	195	null	null	null	null	NO	NO	null	null	null	YES	NO	LIVING
+TCGA-19-0955	NO	NO	NO	NO	NO	NO	NO	YES	null	null	null	358	null	null	null	null	NO	NO	null	null	TUMOR FREE	YES	NO	LIVING
+TCGA-19-0957	YES	NO	NO	NO	NO	YES	null	YES	413	null	665	665	null	null	50	1	NO	NO	null	Post-Adjuvant Therapy	WITH TUMOR	YES	NO	DECEASED
+TCGA-19-0960	NO	NO	NO	NO	NO	NO	NO	YES	null	null	null	262	null	null	null	null	NO	NO	60	Post-Adjuvant Therapy	null	YES	NO	LIVING
+TCGA-19-0962	NO	NO	NO	NO	NO	null	null	NO	null	null	20	13	null	null	null	null	NO	NO	40	Pre-Adjuvant Therapy	null	NO	NO	DECEASED
+TCGA-19-0963	NO	NO	NO	NO	NO	YES	null	YES	310	null	434	434	null	null	310	null	NO	NO	null	null	WITH TUMOR	YES	NO	DECEASED
+TCGA-19-0964	NO	NO	NO	NO	NO	NO	NO	YES	null	null	null	103	null	null	null	null	NO	NO	60	Post-Adjuvant Therapy	WITH TUMOR	YES	NO	LIVING
+TCGA-19-1385	YES	NO	NO	NO	NO	YES	null	YES	174	null	327	327	null	null	176	2	NO	NO	null	Post-Adjuvant Therapy	WITH TUMOR	YES	NO	DECEASED
+TCGA-19-1386	NO	NO	NO	NO	NO	YES	null	YES	253	null	276	276	null	null	237	null	NO	NO	80	Post-Adjuvant Therapy	WITH TUMOR	YES	NO	DECEASED
+TCGA-19-1387	NO	NO	NO	NO	NO	null	null	YES	null	null	null	181	null	null	79	null	NO	NO	60	Post-Adjuvant Therapy	WITH TUMOR	YES	NO	LIVING
+TCGA-19-1388	YES	NO	NO	NO	NO	null	null	YES	null	null	394	394	null	148	null	3	NO	NO	null	Post-Adjuvant Therapy	WITH TUMOR	YES	NO	DECEASED
+TCGA-19-1389	NO	NO	NO	NO	NO	YES	null	YES	81	null	141	141	null	null	81	null	NO	NO	80	Pre-Adjuvant Therapy	WITH TUMOR	YES	NO	DECEASED
+TCGA-19-1390	NO	NO	NO	NO	NO	null	null	NO	null	null	772	772	null	null	null	null	NO	NO	60	Pre-Adjuvant Therapy	null	NO	NO	DECEASED
+TCGA-19-1392	NO	NO	NO	NO	NO	NO	NO	NO	null	null	111	106	null	null	null	null	NO	NO	60	Pre-Adjuvant Therapy	null	NO	NO	DECEASED
+TCGA-19-1786	NO	NO	NO	NO	NO	NO	NO	NO	null	null	null	217	null	null	null	null	NO	NO	40	null	TUMOR FREE	YES	NO	LIVING
+TCGA-19-1787	YES	NO	NO	NO	NO	null	null	YES	null	null	385	385	null	null	307	null	NO	NO	80	Pre-Adjuvant Therapy	WITH TUMOR	YES	NO	DECEASED
+TCGA-19-1788	NO	NO	NO	NO	NO	NO	NO	NO	null	null	111	111	null	null	null	null	NO	NO	60	Pre-Adjuvant Therapy	null	NO	NO	DECEASED
+TCGA-19-1789	NO	NO	NO	NO	NO	NO	NO	YES	null	null	99	99	null	null	null	null	NO	NO	60	Post-Adjuvant Therapy	null	YES	NO	DECEASED
+TCGA-19-1790	NO	NO	NO	NO	NO	null	null	YES	null	null	153	153	null	87	null	null	NO	NO	60	Post-Adjuvant Therapy	WITH TUMOR	YES	NO	DECEASED
+TCGA-19-1791	NO	NO	NO	NO	NO	null	null	NO	null	null	null	4	null	null	null	null	NO	NO	null	null	WITH TUMOR	NO	NO	LIVING
+TCGA-19-2619	YES	NO	NO	NO	NO	null	null	YES	null	null	null	294	null	146	null	null	NO	NO	40	Pre-Adjuvant Therapy	WITH TUMOR	YES	NO	LIVING
+TCGA-19-2620	NO	NO	NO	NO	NO	null	null	YES	null	null	148	148	null	null	null	null	NO	NO	40	Pre-Adjuvant Therapy	TUMOR FREE	YES	NO	DECEASED
+TCGA-19-2621	NO	NO	NO	NO	NO	null	null	NO	null	null	33	33	null	null	null	null	NO	NO	null	null	null	NO	NO	DECEASED
+TCGA-19-2623	NO	NO	NO	NO	NO	null	null	YES	null	null	null	229	null	null	null	null	NO	NO	80	Post-Adjuvant Therapy	TUMOR FREE	YES	NO	LIVING
+TCGA-19-2624	NO	NO	NO	NO	NO	null	null	NO	null	null	5	5	null	null	null	null	NO	NO	null	null	TUMOR FREE	NO	NO	DECEASED
+TCGA-19-2625	NO	NO	NO	NO	NO	null	null	NO	null	null	124	124	null	null	null	null	NO	NO	null	null	TUMOR FREE	NO	NO	DECEASED
+TCGA-19-2629	YES	NO	NO	NO	NO	null	null	YES	null	null	737	501	null	145	null	null	NO	NO	null	null	WITH TUMOR	YES	NO	DECEASED
+TCGA-19-2631	NO	NO	NO	NO	NO	null	null	NO	null	null	213	213	null	null	null	null	NO	NO	60	Pre-Adjuvant Therapy	TUMOR FREE	YES	NO	DECEASED
+TCGA-19-4065	YES	NO	NO	NO	NO	YES	null	YES	70	null	null	214	null	null	70	null	NO	NO	null	null	WITH TUMOR	YES	NO	LIVING
+TCGA-19-4068	NO	NO	NO	NO	NO	null	null	YES	null	null	null	136	null	null	null	null	NO	NO	80	Pre-Adjuvant Therapy	TUMOR FREE	YES	NO	LIVING
+TCGA-19-5947	NO	NO	NO	NO	NO	null	null	NO	null	null	202	202	null	43	null	null	NO	NO	40	Pre-Adjuvant Therapy	WITH TUMOR	YES	NO	DECEASED
+TCGA-19-5950	NO	NO	NO	NO	NO	YES	null	YES	294	null	null	343	null	null	294	null	NO	NO	100	Pre-Adjuvant Therapy	WITH TUMOR	YES	NO	LIVING
+TCGA-19-5951	NO	NO	NO	NO	NO	NO	null	YES	null	null	244	244	null	null	null	null	NO	NO	80	Pre-Adjuvant Therapy	WITH TUMOR	YES	NO	DECEASED
+TCGA-19-5952	NO	NO	NO	NO	NO	null	null	NO	null	null	575	567	null	null	null	null	NO	NO	60	Pre-Adjuvant Therapy	null	YES	NO	DECEASED
+TCGA-19-5953	NO	NO	NO	NO	NO	null	null	null	null	null	144	144	null	119	null	null	NO	NO	null	null	WITH TUMOR	null	NO	DECEASED
+TCGA-19-5954	NO	NO	NO	NO	NO	null	null	YES	null	null	null	242	null	null	null	null	NO	NO	60	Post-Adjuvant Therapy	WITH TUMOR	YES	NO	LIVING
+TCGA-19-5955	NO	NO	NO	NO	NO	null	null	NO	null	null	54	54	null	null	null	null	NO	NO	null	null	null	NO	NO	DECEASED
+TCGA-19-5956	NO	NO	NO	NO	NO	null	null	YES	null	null	null	198	null	null	null	null	NO	NO	80	Pre-Adjuvant Therapy	WITH TUMOR	YES	NO	LIVING
+TCGA-19-5958	NO	NO	NO	NO	NO	null	null	YES	null	null	null	164	null	null	null	null	NO	NO	80	Post-Adjuvant Therapy	TUMOR FREE	YES	NO	LIVING
+TCGA-19-5959	NO	NO	NO	NO	NO	null	null	YES	null	null	null	161	null	null	119	null	NO	NO	80	Post-Adjuvant Therapy	WITH TUMOR	YES	NO	LIVING
+TCGA-19-5960	NO	NO	NO	NO	NO	null	null	YES	null	null	null	165	null	null	null	null	NO	NO	80	Pre-Adjuvant Therapy	TUMOR FREE	YES	NO	LIVING
+TCGA-26-1438	YES	YES	NO	NO	NO	YES	NO	YES	297	null	null	305	null	158	null	0	NO	NO	100	Pre-Adjuvant Therapy	WITH TUMOR	YES	NO	LIVING
+TCGA-26-1439	NO	NO	NO	NO	NO	null	null	YES	null	null	422	422	null	283	null	null	NO	NO	null	null	WITH TUMOR	YES	NO	DECEASED
+TCGA-26-1440	NO	NO	NO	NO	NO	NO	NO	YES	null	null	null	296	null	null	233	1	NO	NO	80	Pre-Adjuvant Therapy	WITH TUMOR	YES	NO	LIVING
+TCGA-26-1442	NO	NO	NO	NO	NO	null	null	YES	null	null	null	953	null	null	null	1	NO	NO	80	Post-Adjuvant Therapy	WITH TUMOR	YES	NO	LIVING
+TCGA-26-1443	NO	NO	NO	NO	NO	NO	NO	YES	null	null	null	216	null	216	null	2	NO	NO	60	Other	WITH TUMOR	YES	NO	LIVING
+TCGA-26-1799	NO	NO	NO	NO	NO	NO	NO	YES	null	null	285	285	null	null	213	2	NO	NO	60	Pre-Adjuvant Therapy	WITH TUMOR	YES	NO	DECEASED
+TCGA-26-5132	NO	NO	NO	NO	NO	null	null	YES	null	null	null	286	null	null	null	2	NO	NO	60	Pre-Adjuvant Therapy	TUMOR FREE	YES	NO	LIVING
+TCGA-26-5133	NO	NO	NO	NO	NO	YES	null	YES	392	null	null	452	null	370	null	1	NO	NO	80	null	TUMOR FREE	YES	NO	LIVING
+TCGA-26-5134	NO	NO	NO	NO	NO	null	null	NO	null	null	null	167	null	null	null	2	NO	NO	60	Pre-Adjuvant Therapy	TUMOR FREE	YES	NO	LIVING
+TCGA-26-5139	NO	NO	NO	NO	NO	null	null	NO	null	null	null	48	null	null	null	2	NO	NO	60	Pre-Adjuvant Therapy	WITH TUMOR	NO	NO	LIVING
+TCGA-26-6173	NO	NO	NO	NO	NO	null	null	YES	null	null	null	241	null	null	null	1	NO	NO	80	Pre-Adjuvant Therapy	TUMOR FREE	YES	NO	LIVING
+TCGA-26-6174	NO	NO	NO	NO	NO	null	null	YES	null	null	null	70	null	null	null	1	NO	NO	80	Post-Adjuvant Therapy	null	YES	NO	LIVING
+TCGA-27-1830	NO	NO	NO	NO	NO	null	null	YES	null	null	154	146	null	null	124	1	YES	NO	80	Pre-Operative	WITH TUMOR	YES	NO	DECEASED
+TCGA-27-1832	YES	NO	NO	NO	NO	null	null	YES	null	null	300	0	null	183	null	0	YES	NO	100	Pre-Operative	WITH TUMOR	YES	NO	DECEASED
+TCGA-27-1833	YES	NO	NO	NO	NO	null	null	YES	null	null	737	555	null	null	469	1	YES	NO	80	Pre-Operative	WITH TUMOR	YES	NO	DECEASED
+TCGA-27-1834	YES	NO	NO	NO	NO	null	null	YES	null	null	1232	1008	null	null	335	1	YES	NO	80	Pre-Adjuvant Therapy	WITH TUMOR	YES	NO	DECEASED
+TCGA-28-1745	NO	NO	NO	NO	NO	null	null	YES	null	null	null	344	null	316	null	1	NO	NO	60	Post-Adjuvant Therapy	WITH TUMOR	YES	NO	LIVING
+TCGA-28-1746	null	null	null	null	null	null	null	YES	null	null	null	6	null	null	null	1	NO	NO	80	Pre-Adjuvant Therapy	null	YES	NO	LIVING
+TCGA-28-1749	NO	NO	NO	NO	NO	null	null	YES	null	null	null	279	null	279	null	1	NO	NO	80	Post-Adjuvant Therapy	WITH TUMOR	YES	NO	LIVING
+TCGA-28-1750	NO	NO	NO	NO	YES	null	null	YES	null	null	null	253	null	115	null	2	NO	NO	60	Post-Adjuvant Therapy	WITH TUMOR	YES	NO	LIVING
+TCGA-28-1751	null	null	null	null	null	null	null	YES	null	null	null	231	null	218	null	1	NO	YES	80	Post-Adjuvant Therapy	WITH TUMOR	YES	NO	LIVING
+TCGA-28-1752	NO	NO	NO	NO	NO	null	null	YES	null	null	null	257	null	null	null	1	NO	YES	80	Post-Adjuvant Therapy	WITH TUMOR	YES	NO	LIVING
+TCGA-28-1755	null	null	null	null	null	null	null	YES	null	null	46	46	null	null	null	2	NO	NO	60	Post-Adjuvant Therapy	WITH TUMOR	YES	NO	DECEASED
+TCGA-28-1760	NO	NO	NO	NO	NO	null	null	YES	null	null	null	143	null	105	null	null	NO	NO	null	null	WITH TUMOR	YES	NO	LIVING
+TCGA-28-5204	null	null	null	null	YES	null	null	null	null	null	454	119	null	null	null	null	null	null	80	Pre-Adjuvant Therapy	WITH TUMOR	YES	null	DECEASED
+TCGA-28-5204	null	null	null	null	null	null	null	YES	null	null	454	119	null	null	null	null	NO	NO	80	Pre-Adjuvant Therapy	WITH TUMOR	YES	NO	DECEASED
+TCGA-28-5207	null	null	null	null	YES	NO	NO	null	null	null	343	275	null	null	null	null	null	null	70	Pre-Adjuvant Therapy	WITH TUMOR	YES	null	DECEASED
+TCGA-28-5207	YES	NO	NO	NO	YES	NO	NO	YES	null	null	343	275	null	null	null	null	NO	NO	70	Pre-Adjuvant Therapy	WITH TUMOR	YES	NO	DECEASED
+TCGA-28-5208	null	null	null	null	YES	NO	NO	null	null	null	null	473	147	null	null	null	null	null	70	Pre-Adjuvant Therapy	WITH TUMOR	YES	null	LIVING
+TCGA-28-5208	YES	NO	NO	NO	YES	NO	NO	YES	null	null	null	473	null	147	null	null	NO	NO	70	Pre-Adjuvant Therapy	WITH TUMOR	YES	NO	LIVING
+TCGA-28-5209	null	null	null	null	null	null	null	null	null	null	null	442	null	null	null	null	null	null	null	null	null	YES	null	LIVING
+TCGA-28-5209	null	null	null	null	null	null	null	YES	null	null	null	77	null	null	null	null	NO	NO	null	null	null	YES	NO	LIVING
+TCGA-28-5211	null	null	null	null	NO	NO	NO	null	null	null	null	358	225	null	null	null	null	null	100	Pre-Adjuvant Therapy	WITH TUMOR	YES	null	LIVING
+TCGA-28-5211	YES	NO	NO	NO	NO	NO	NO	YES	null	null	null	358	null	225	null	null	NO	NO	100	Pre-Adjuvant Therapy	WITH TUMOR	YES	NO	LIVING
+TCGA-28-5213	null	null	null	null	null	null	null	null	null	null	null	298	null	null	null	null	null	null	80	Pre-Adjuvant Therapy	WITH TUMOR	YES	null	LIVING
+TCGA-28-5213	null	null	null	null	null	null	null	YES	null	null	null	298	null	null	null	null	NO	NO	80	Pre-Adjuvant Therapy	WITH TUMOR	YES	NO	LIVING
+TCGA-28-5214	null	null	null	null	NO	YES	NO	null	324	null	null	432	247	null	null	null	null	null	null	null	null	YES	null	LIVING
+TCGA-28-5214	YES	NO	NO	NO	YES	YES	NO	YES	324	null	null	432	null	247	null	null	NO	NO	70	Pre-Adjuvant Therapy	WITH TUMOR	YES	NO	LIVING
+TCGA-28-5215	null	null	null	null	NO	NO	NO	null	null	null	335	237	164	null	null	null	null	null	90	Pre-Adjuvant Therapy	WITH TUMOR	YES	null	DECEASED
+TCGA-28-5215	YES	NO	NO	NO	NO	NO	NO	YES	null	null	335	237	null	164	null	null	NO	NO	90	Pre-Adjuvant Therapy	WITH TUMOR	YES	NO	DECEASED
+TCGA-28-5216	null	null	null	null	NO	NO	NO	null	null	null	null	415	null	null	null	null	null	null	80	Pre-Adjuvant Therapy	TUMOR FREE	YES	null	LIVING
+TCGA-28-5216	NO	NO	NO	NO	NO	NO	NO	YES	null	null	null	415	null	null	null	null	NO	NO	80	Pre-Adjuvant Therapy	TUMOR FREE	YES	NO	LIVING
+TCGA-28-5218	null	null	null	null	null	null	null	null	null	null	157	128	null	null	null	null	null	null	null	null	null	YES	null	DECEASED
+TCGA-28-5218	null	null	null	null	null	null	null	YES	null	null	157	128	null	null	null	null	NO	NO	null	null	null	YES	NO	DECEASED
+TCGA-28-5219	null	null	null	null	null	NO	null	null	null	null	null	259	258	null	null	null	null	null	70	Pre-Adjuvant Therapy	WITH TUMOR	YES	null	LIVING
+TCGA-28-5219	null	null	null	null	null	NO	NO	YES	null	null	null	259	null	258	null	null	NO	NO	70	Pre-Adjuvant Therapy	WITH TUMOR	YES	NO	LIVING
+TCGA-28-5220	null	null	null	null	NO	NO	NO	null	null	null	null	319	262	null	null	null	null	null	90	null	WITH TUMOR	YES	null	LIVING
+TCGA-28-5220	null	null	null	null	null	NO	NO	YES	null	null	null	319	null	262	null	null	NO	NO	90	Pre-Adjuvant Therapy	WITH TUMOR	YES	NO	LIVING
+TCGA-28-6450	null	null	null	null	null	null	null	null	null	null	165	165	null	null	null	null	null	null	null	null	WITH TUMOR	YES	null	DECEASED
+TCGA-28-6450	null	null	null	null	null	null	null	YES	null	null	165	165	null	null	null	null	NO	NO	null	null	WITH TUMOR	YES	NO	DECEASED
+TCGA-32-1973	NO	NO	NO	NO	NO	null	null	YES	null	null	641	641	null	507	null	null	NO	NO	null	null	WITH TUMOR	YES	NO	DECEASED
+TCGA-32-1977	null	null	null	null	null	null	null	null	null	null	null	3	null	null	null	null	null	null	null	null	null	null	null	LIVING
+TCGA-32-1978	null	null	null	null	null	null	null	null	null	null	482	482	null	null	null	null	NO	NO	null	null	WITH TUMOR	null	null	DECEASED
+TCGA-32-1979	null	null	null	null	null	YES	NO	null	265	null	593	593	null	265	null	null	NO	NO	null	null	WITH TUMOR	null	null	DECEASED
+TCGA-32-1980	NO	NO	NO	NO	NO	null	null	NO	null	null	36	36	null	null	null	null	NO	NO	null	null	WITH TUMOR	NO	NO	DECEASED
+TCGA-32-1987	YES	YES	NO	NO	NO	YES	NO	YES	67	null	451	451	null	null	67	null	NO	NO	null	null	WITH TUMOR	YES	NO	DECEASED
+TCGA-32-1991	NO	NO	NO	NO	NO	YES	NO	YES	345	null	515	515	null	null	345	null	NO	NO	null	null	WITH TUMOR	YES	NO	DECEASED
+TCGA-32-2491	YES	NO	NO	NO	NO	null	null	YES	null	null	372	372	null	null	70	null	NO	NO	null	null	WITH TUMOR	YES	NO	DECEASED
+TCGA-32-2494	YES	NO	NO	NO	YES	null	null	YES	null	null	632	632	null	488	null	null	NO	NO	null	null	WITH TUMOR	YES	NO	DECEASED
+TCGA-32-2495	YES	NO	NO	NO	YES	YES	NO	YES	251	null	456	456	null	null	251	null	NO	NO	null	null	WITH TUMOR	YES	NO	DECEASED
+TCGA-32-2615	YES	YES	NO	NO	YES	YES	null	YES	131	null	485	485	null	131	null	null	NO	NO	80	Pre-Operative	WITH TUMOR	YES	NO	DECEASED
+TCGA-32-2616	NO	NO	NO	NO	YES	null	null	YES	null	null	223	223	null	181	null	1	NO	NO	null	Pre-Adjuvant Therapy	WITH TUMOR	YES	YES	DECEASED
+TCGA-32-2634	null	null	null	null	NO	NO	NO	null	null	null	null	693	null	null	null	null	null	null	null	null	null	NO	null	LIVING
+TCGA-32-2634	NO	NO	NO	NO	NO	null	null	YES	null	null	null	270	null	null	null	1	NO	NO	null	null	TUMOR FREE	YES	NO	LIVING
+TCGA-32-2638	null	null	null	null	NO	null	null	null	null	null	null	581	null	null	null	null	null	null	80	Post-Adjuvant Therapy	null	YES	null	LIVING
+TCGA-32-2638	null	null	null	null	NO	null	null	null	null	null	null	644	null	null	null	null	null	null	null	null	WITH TUMOR	NO	null	LIVING
+TCGA-32-2638	NO	NO	NO	NO	NO	null	null	YES	null	null	null	224	null	null	null	0	NO	NO	null	Pre-Adjuvant Therapy	TUMOR FREE	YES	YES	LIVING
+TCGA-32-4208	null	null	null	null	NO	NO	NO	null	null	null	null	643	null	null	null	null	null	null	null	null	WITH TUMOR	null	null	LIVING
+TCGA-32-4208	NO	NO	NO	NO	NO	null	null	YES	null	null	null	400	null	null	null	null	NO	NO	null	null	WITH TUMOR	YES	NO	LIVING
+TCGA-32-4209	null	null	null	null	YES	YES	NO	null	338	null	null	593	338	null	null	null	null	null	null	null	WITH TUMOR	YES	null	LIVING
+TCGA-32-4209	null	null	null	null	NO	YES	null	null	436	null	null	603	436	null	null	null	null	null	null	null	WITH TUMOR	YES	null	LIVING
+TCGA-32-4209	YES	NO	NO	NO	NO	YES	NO	YES	93	null	null	338	null	null	93	null	NO	NO	null	null	WITH TUMOR	YES	NO	LIVING
+TCGA-32-4210	NO	NO	NO	NO	NO	null	null	null	null	null	112	112	null	null	null	null	NO	NO	null	null	WITH TUMOR	null	null	DECEASED
+TCGA-32-4211	NO	NO	NO	NO	NO	null	null	YES	null	null	383	383	null	null	null	null	NO	NO	null	null	WITH TUMOR	YES	NO	DECEASED
+TCGA-32-4213	null	null	null	null	NO	NO	NO	null	null	null	null	603	560	null	null	null	null	null	70	Post-Adjuvant Therapy	WITH TUMOR	null	null	LIVING
+TCGA-32-4213	YES	NO	NO	NO	YES	null	NO	YES	356	null	null	356	null	null	352	null	NO	NO	null	null	WITH TUMOR	YES	NO	LIVING
+TCGA-32-4719	NO	NO	NO	NO	NO	null	null	YES	null	null	330	330	null	null	null	null	NO	NO	null	null	WITH TUMOR	YES	NO	DECEASED
+TCGA-32-5222	NO	NO	NO	NO	NO	YES	NO	YES	118	null	null	165	null	118	null	null	NO	NO	null	null	WITH TUMOR	YES	NO	LIVING
+TCGA-41-2571	NO	NO	NO	NO	NO	NO	NO	YES	null	null	26	26	null	26	null	null	NO	NO	60	Pre-Adjuvant Therapy	WITH TUMOR	NO	NO	DECEASED
+TCGA-41-2572	NO	YES	NO	NO	NO	NO	NO	YES	null	null	406	406	null	122	null	1	NO	NO	null	Post-Adjuvant Therapy	WITH TUMOR	YES	NO	DECEASED
+TCGA-41-2573	NO	NO	NO	NO	NO	null	null	YES	null	null	null	272	null	167	null	null	NO	NO	60	Post-Adjuvant Therapy	WITH TUMOR	YES	YES	LIVING
+TCGA-41-2575	NO	YES	NO	NO	YES	null	null	YES	null	null	290	290	null	131	null	null	NO	NO	60	Post-Adjuvant Therapy	WITH TUMOR	YES	NO	DECEASED
+TCGA-41-3392	NO	NO	NO	NO	NO	null	null	NO	null	null	30	30	null	null	null	null	NO	NO	null	null	WITH TUMOR	NO	NO	DECEASED
+TCGA-41-3393	NO	NO	NO	NO	NO	NO	NO	YES	null	null	135	135	null	null	null	4	NO	NO	null	Post-Adjuvant Therapy	WITH TUMOR	YES	NO	DECEASED
+TCGA-41-3915	null	null	null	null	NO	null	null	null	null	null	360	360	null	null	null	3	null	null	null	Other	WITH TUMOR	YES	null	DECEASED
+TCGA-41-3915	NO	NO	NO	NO	NO	NO	NO	YES	null	null	null	183	null	null	null	1	NO	NO	null	Pre-Adjuvant Therapy	WITH TUMOR	YES	NO	LIVING
+TCGA-41-4097	NO	NO	NO	NO	NO	NO	NO	NO	null	null	6	6	null	null	null	null	NO	NO	null	null	WITH TUMOR	NO	NO	DECEASED
+TCGA-41-5651	null	null	null	null	YES	NO	NO	null	null	null	460	null	322	null	null	1	null	null	null	null	WITH TUMOR	null	null	DECEASED
+TCGA-41-5651	YES	YES	NO	NO	NO	YES	NO	YES	231	null	null	351	null	210	null	1	NO	NO	null	Other	WITH TUMOR	YES	YES	LIVING
+TCGA-41-6646	NO	NO	NO	NO	NO	null	null	YES	null	null	null	235	null	199	null	4	NO	NO	null	Other	WITH TUMOR	YES	NO	LIVING
+TCGA-74-6573	null	null	null	null	NO	NO	NO	null	null	null	105	null	null	null	null	null	null	null	0	Post-Adjuvant Therapy	WITH TUMOR	YES	null	DECEASED
+TCGA-74-6573	NO	NO	NO	NO	NO	null	null	YES	null	null	105	105	null	null	null	null	NO	NO	100	Pre-Operative	WITH TUMOR	YES	NO	DECEASED
+TCGA-74-6575	null	null	null	null	NO	NO	NO	null	null	null	null	533	460	null	null	null	null	null	70	Post-Adjuvant Therapy	WITH TUMOR	YES	null	LIVING
+TCGA-74-6575	null	null	null	null	NO	NO	NO	null	null	null	null	635	93	null	null	null	null	null	70	Post-Adjuvant Therapy	WITH TUMOR	YES	null	LIVING
+TCGA-74-6575	YES	YES	NO	NO	NO	null	null	YES	null	null	null	533	null	460	null	null	NO	NO	90	Pre-Operative	WITH TUMOR	YES	NO	LIVING
+TCGA-74-6577	null	null	null	null	NO	NO	NO	null	null	null	null	131	131	null	null	null	null	null	90	Pre-Adjuvant Therapy	WITH TUMOR	YES	null	LIVING
+TCGA-74-6577	NO	YES	NO	NO	NO	null	null	YES	null	null	null	131	null	131	null	null	NO	NO	90	Pre-Operative	WITH TUMOR	YES	NO	LIVING
+TCGA-74-6578	NO	YES	NO	NO	NO	null	null	YES	null	null	null	436	null	222	null	null	NO	NO	100	Pre-Operative	WITH TUMOR	YES	NO	LIVING
+TCGA-74-6581	null	null	null	null	NO	NO	NO	null	null	null	null	250	null	null	null	null	null	null	80	Post-Adjuvant Therapy	WITH TUMOR	YES	null	LIVING
+TCGA-74-6581	NO	NO	NO	NO	NO	null	null	YES	null	null	null	250	null	null	null	null	NO	NO	100	Pre-Operative	WITH TUMOR	YES	NO	LIVING
+TCGA-74-6584	null	null	null	null	YES	NO	NO	null	null	null	null	227	90	null	null	0	null	null	null	Post-Adjuvant Therapy	WITH TUMOR	YES	null	LIVING
+TCGA-74-6584	YES	YES	NO	NO	YES	null	null	YES	null	null	null	227	null	90	null	null	NO	NO	80	Pre-Operative	WITH TUMOR	YES	NO	LIVING
+TCGA-76-4925	NO	NO	NO	NO	NO	null	null	YES	null	null	145	145	null	87	null	0	NO	null	100	Pre-Operative	null	YES	null	DECEASED
+TCGA-76-4926	YES	null	null	null	YES	null	null	YES	null	null	138	138	null	34	null	null	null	null	80	null	WITH TUMOR	YES	null	DECEASED
+TCGA-76-4927	null	null	null	null	null	YES	null	null	416	null	535	535	null	416	null	null	null	null	80	null	WITH TUMOR	null	null	DECEASED
+TCGA-76-4928	NO	NO	NO	NO	NO	null	null	YES	null	null	94	94	null	null	null	null	null	null	80	null	WITH TUMOR	YES	null	DECEASED
+TCGA-76-4929	NO	NO	NO	NO	NO	null	null	null	null	null	111	111	null	null	null	null	null	null	80	null	WITH TUMOR	null	null	DECEASED
+TCGA-76-4931	YES	null	NO	NO	YES	YES	null	YES	112	null	278	278	null	112	null	null	NO	NO	80	null	WITH TUMOR	YES	NO	DECEASED
+TCGA-76-4932	YES	NO	NO	NO	YES	null	null	YES	null	null	1458	1458	null	null	null	null	NO	NO	80	null	WITH TUMOR	YES	NO	DECEASED
+TCGA-76-4934	NO	NO	NO	NO	NO	null	null	NO	null	null	77	77	null	null	null	null	NO	NO	80	null	TUMOR FREE	NO	NO	DECEASED
+TCGA-76-4935	NO	null	NO	NO	NO	null	null	YES	null	null	null	328	null	328	null	null	NO	null	80	null	TUMOR FREE	YES	null	LIVING
+TCGA-76-6191	YES	NO	NO	NO	YES	NO	NO	YES	null	null	507	507	null	322	null	1	NO	NO	80	Pre-Adjuvant Therapy	WITH TUMOR	YES	NO	DECEASED
+TCGA-76-6192	NO	NO	NO	NO	NO	NO	NO	YES	null	null	100	100	null	76	null	1	NO	NO	80	Pre-Operative	WITH TUMOR	YES	NO	DECEASED
+TCGA-76-6193	NO	NO	NO	NO	NO	NO	NO	YES	null	null	82	82	null	64	null	null	null	null	60	null	null	YES	null	DECEASED
+TCGA-76-6280	NO	NO	NO	NO	YES	YES	null	YES	136	null	346	346	null	108	null	1	NO	NO	80	Post-Adjuvant Therapy	WITH TUMOR	YES	NO	DECEASED
+TCGA-76-6282	NO	NO	NO	NO	NO	YES	null	YES	468	null	519	519	null	458	null	1	NO	NO	80	Pre-Operative	WITH TUMOR	YES	NO	DECEASED
+TCGA-76-6285	NO	NO	NO	NO	NO	NO	NO	YES	null	null	253	253	null	null	null	null	NO	NO	80	Pre-Operative	WITH TUMOR	NO	NO	DECEASED
+TCGA-76-6286	YES	NO	NO	NO	YES	YES	null	YES	238	null	637	637	null	179	null	1	NO	NO	80	Pre-Operative	WITH TUMOR	YES	NO	DECEASED
+TCGA-76-6656	null	null	null	null	null	null	null	YES	null	null	147	147	null	null	null	2	NO	NO	60	Pre-Operative	null	YES	NO	DECEASED
+TCGA-76-6657	NO	NO	NO	NO	NO	null	null	YES	null	null	153	153	null	135	null	1	NO	NO	80	Pre-Operative	WITH TUMOR	YES	NO	DECEASED
+TCGA-76-6661	NO	NO	NO	NO	NO	null	null	YES	null	null	null	7	null	null	null	2	NO	NO	60	Pre-Operative	WITH TUMOR	YES	NO	LIVING
+TCGA-76-6662	YES	NO	NO	NO	NO	YES	null	YES	216	null	null	281	null	204	null	1	NO	NO	80	Post-Adjuvant Therapy	WITH TUMOR	YES	NO	LIVING
+TCGA-76-6663	NO	NO	NO	NO	NO	null	null	YES	null	null	null	234	null	null	null	1	NO	YES	80	Pre-Operative	WITH TUMOR	YES	NO	LIVING
+TCGA-76-6664	NO	NO	NO	NO	NO	null	null	YES	null	null	null	236	null	null	null	1	NO	NO	80	Pre-Operative	WITH TUMOR	NO	NO	LIVING
+TCGA-81-5910	NO	NO	NO	NO	NO	null	null	NO	null	null	49	49	null	null	null	3	NO	NO	40	Other	WITH TUMOR	NO	NO	DECEASED
+TCGA-81-5911	YES	NO	NO	NO	YES	YES	null	YES	309	null	null	538	null	277	null	1	NO	NO	null	Pre-Adjuvant Therapy	WITH TUMOR	YES	NO	LIVING
