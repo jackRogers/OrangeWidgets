@@ -77,6 +77,7 @@ def makeDataFile(newFileName,dataDict):
 	genes = dataDict[paitients[0]].keys()
 	
 	header = "patientID\t"
+	#add class label
 	for g in genes:
 		header += g
 		header += "\t"
@@ -85,11 +86,15 @@ def makeDataFile(newFileName,dataDict):
 	fh.write(header)
 	
 	shitz = "d\t"
+	#add class label as discrete
 	for i in range(len(genes)):
 		shitz += "c\t"
 	shitz += "\n"
 	
 	fh.write(shitz)
+	
+	
+	
 		
 	for p in patients:
 		line = p
@@ -101,7 +106,7 @@ def makeDataFile(newFileName,dataDict):
 		fh.write(line)
 	fh.close
 	
-def makeCSVDataFile(newFileName,dataDict):
+def makeCSVDataFile(newFileName,dataDict,label):
 	fh = open(newFileName,'w')
 	writer = csv.writer(fh,delimiter = "\t")
 	patients = dataDict.keys()
@@ -109,6 +114,8 @@ def makeCSVDataFile(newFileName,dataDict):
 	
 	header = []
 	header.append("patientID")
+	#add class label
+	header.append("type")
 	for g in genes:
 		header.append(g)
 	
@@ -116,17 +123,25 @@ def makeCSVDataFile(newFileName,dataDict):
 	
 	header2 = []
 	header2.append('d')
+	#make class label discrete
+	header2.append('d')
 	for g in genes:
 		header2.append('c')
 	
 	writer.writerow(header2)
 	
+	#make second column class label, get all other \t's
 	header3 = []
+	header3.append('')
+	header3.append('class')
+	for g in genes:
+		header3.append('')
 	
 	
 	for p in patients:
 		line = []
 		line.append(p)
+		line.append(label)
 		for g in genes:
 			line.append(dataDict[p][g])
 		writer.writerow(line)
