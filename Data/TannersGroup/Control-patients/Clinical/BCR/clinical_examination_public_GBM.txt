@@ -1,0 +1,1 @@
+bcr_patient_barcode	bcr_examination_barcode	eastern_cancer_oncology_group	karnofsky_performance_score	performance_status_scale_timing	progression_determined_by	progression_status

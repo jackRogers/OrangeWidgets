@@ -1,0 +1,11 @@
+bcr_patient_barcode	method_of_sample_procurement
+TCGA-06-0673	null
+TCGA-06-0675	null
+TCGA-06-0676	null
+TCGA-06-0678	null
+TCGA-06-0680	null
+TCGA-06-0681	null
+TCGA-08-0623	null
+TCGA-08-0625	null
+TCGA-08-0626	null
+TCGA-08-0627	null
