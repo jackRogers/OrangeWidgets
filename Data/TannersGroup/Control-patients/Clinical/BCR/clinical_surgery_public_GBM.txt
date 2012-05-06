@@ -1,0 +1,1 @@
+bcr_patient_barcode	bcr_surgery_barcode	days_to_procedure	procedure_type

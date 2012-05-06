@@ -1,0 +1,31 @@
+bcr_sample_barcode	bcr_analyte_barcode	a260_a280_ratio	aliquots	amount	analyte_type	concentration	gel_image_file	spectrophotometer_method	well_number
+TCGA-06-0673-11A	TCGA-06-0673-11A-01T	null	null	0 uL	Total RNA	0.100 ug/uL	https://atlas.intgen.org/bcr-data/Molecular%20Analyte%20Data/	UV Spec	null
+TCGA-06-0673-11A	TCGA-06-0673-11A-01R	1.80	null	7.9 uL	RNA	0.160 ug/uL	https://atlas.intgen.org/bcr-data/Molecular%20Analyte%20Data/	UV Spec	null
+TCGA-06-0673-11A	TCGA-06-0673-11A-01D	1.9	null	40 uL	DNA	.165 ug/uL	https://atlas.intgen.org/bcr-data/Molecular%20Analyte%20Data/	UV Spec	null
+TCGA-06-0675-11A	TCGA-06-0675-11A-01R	1.80	null	7.9 uL	RNA	0.160 ug/uL	https://atlas.intgen.org/bcr-data/Molecular%20Analyte%20Data/	UV Spec	null
+TCGA-06-0675-11A	TCGA-06-0675-11A-01D	1.9	null	40 uL	DNA	.165 ug/uL	https://atlas.intgen.org/bcr-data/Molecular%20Analyte%20Data/	UV Spec	null
+TCGA-06-0675-11A	TCGA-06-0675-11A-01T	null	null	0 uL	Total RNA	0.100 ug/uL	https://atlas.intgen.org/bcr-data/Molecular%20Analyte%20Data/	UV Spec	null
+TCGA-06-0676-11A	TCGA-06-0676-11A-02R	1.80	null	27.9 uL	RNA	0.174 ug/uL	https://atlas.intgen.org/bcr-data/Molecular%20Analyte%20Data/	UV Spec	null
+TCGA-06-0676-11A	TCGA-06-0676-11A-02T	null	null	0 uL	Total RNA	0.100 ug/uL	https://atlas.intgen.org/bcr-data/Molecular%20Analyte%20Data/	UV Spec	null
+TCGA-06-0676-11A	TCGA-06-0676-11A-02D	1.9	null	40 uL	DNA	.161 ug/uL	https://atlas.intgen.org/bcr-data/Molecular%20Analyte%20Data/	UV Spec	null
+TCGA-06-0678-11A	TCGA-06-0678-11A-01D	1.9	null	40 uL	DNA	.172 ug/uL	https://atlas.intgen.org/bcr-data/Molecular%20Analyte%20Data/	UV Spec	null
+TCGA-06-0678-11A	TCGA-06-0678-11A-01R	1.80	null	42.23 uL	RNA	0.174 ug/uL	https://atlas.intgen.org/bcr-data/Molecular%20Analyte%20Data/	UV Spec	null
+TCGA-06-0678-11A	TCGA-06-0678-11A-01T	null	null	0 uL	Total RNA	0.100 ug/uL	https://atlas.intgen.org/bcr-data/Molecular%20Analyte%20Data/	UV Spec	null
+TCGA-06-0680-11A	TCGA-06-0680-11A-01T	null	null	3 uL	Total RNA	0.100 ug/uL	https://atlas.intgen.org/bcr-data/Molecular%20Analyte%20Data/	UV Spec	null
+TCGA-06-0680-11A	TCGA-06-0680-11A-01D	1.9	null	40 uL	DNA	.164 ug/uL	https://atlas.intgen.org/bcr-data/Molecular%20Analyte%20Data/	UV Spec	null
+TCGA-06-0680-11A	TCGA-06-0680-11A-01R	1.80	null	7.9 uL	RNA	0.160 ug/uL	https://atlas.intgen.org/bcr-data/Molecular%20Analyte%20Data/	UV Spec	null
+TCGA-06-0681-11A	TCGA-06-0681-11A-01R	1.80	null	7.9 uL	RNA	0.160 ug/uL	https://atlas.intgen.org/bcr-data/Molecular%20Analyte%20Data/	UV Spec	null
+TCGA-06-0681-11A	TCGA-06-0681-11A-01D	1.9	null	40 uL	DNA	.113 ug/uL	https://atlas.intgen.org/bcr-data/Molecular%20Analyte%20Data/	UV Spec	null
+TCGA-06-0681-11A	TCGA-06-0681-11A-01T	null	null	4 uL	Total RNA	0.100 ug/uL	https://atlas.intgen.org/bcr-data/Molecular%20Analyte%20Data/	UV Spec	null
+TCGA-08-0623-11A	TCGA-08-0623-11A-01D	1.9	null	40 uL	DNA	.190 ug/uL	https://atlas.intgen.org/bcr-data/Molecular%20Analyte%20Data/	UV Spec	null
+TCGA-08-0623-11A	TCGA-08-0623-11A-01T	null	null	0 uL	Total RNA	0.100 ug/uL	https://atlas.intgen.org/bcr-data/Molecular%20Analyte%20Data/	UV Spec	null
+TCGA-08-0623-11A	TCGA-08-0623-11A-01R	1.80	null	0 uL	RNA	0.110 ug/uL	https://atlas.intgen.org/bcr-data/Molecular%20Analyte%20Data/	UV Spec	null
+TCGA-08-0625-11A	TCGA-08-0625-11A-01D	1.9	null	40 uL	DNA	.190 ug/uL	https://atlas.intgen.org/bcr-data/Molecular%20Analyte%20Data/	UV Spec	null
+TCGA-08-0625-11A	TCGA-08-0625-11A-01R	1.80	null	0 uL	RNA	0.110 ug/uL	https://atlas.intgen.org/bcr-data/Molecular%20Analyte%20Data/	UV Spec	null
+TCGA-08-0625-11A	TCGA-08-0625-11A-01T	null	null	0 uL	Total RNA	0.100 ug/uL	https://atlas.intgen.org/bcr-data/Molecular%20Analyte%20Data/	UV Spec	null
+TCGA-08-0626-11A	TCGA-08-0626-11A-01T	null	null	2 uL	Total RNA	0.100 ug/uL	https://atlas.intgen.org/bcr-data/Molecular%20Analyte%20Data/	UV Spec	null
+TCGA-08-0626-11A	TCGA-08-0626-11A-01R	1.80	null	7.9 uL	RNA	0.140 ug/uL	https://atlas.intgen.org/bcr-data/Molecular%20Analyte%20Data/	UV Spec	null
+TCGA-08-0626-11A	TCGA-08-0626-11A-01D	1.9	null	40 uL	DNA	.140 ug/uL	https://atlas.intgen.org/bcr-data/Molecular%20Analyte%20Data/	UV Spec	null
+TCGA-08-0627-11A	TCGA-08-0627-11A-01T	null	null	0 uL	Total RNA	0.100 ug/uL	https://atlas.intgen.org/bcr-data/Molecular%20Analyte%20Data/	UV Spec	null
+TCGA-08-0627-11A	TCGA-08-0627-11A-01R	1.80	null	7.9 uL	RNA	0.140 ug/uL	https://atlas.intgen.org/bcr-data/Molecular%20Analyte%20Data/	UV Spec	null
+TCGA-08-0627-11A	TCGA-08-0627-11A-01D	1.9	null	40 uL	DNA	.18 ug/uL	https://atlas.intgen.org/bcr-data/Molecular%20Analyte%20Data/	UV Spec	null
