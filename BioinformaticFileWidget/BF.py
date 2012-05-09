@@ -121,23 +121,25 @@ def makeCSVDataFile(newFileName,dataDict,label):
 	
 	writer.writerow(header)
 	
-	header2 = []
-	header2.append('discrete')
-	#make class label discrete
-	header2.append('discrete')
-	for g in genes:
-		header2.append('continuous')
 	
-	writer.writerow(header2)
+#commented out due to .tab fail so hard
+	#header2 = []
+	#header2.append('discrete')
+	##make class label discrete
+	#header2.append('discrete')
+	#for g in genes:
+		#header2.append('continuous')
 	
-	#make second column class label, get all other \t's
-	header3 = []
-	header3.append('')
-	header3.append('class')
-	for g in genes:
-		header3.append('')
+	#writer.writerow(header2)
+	
+	##make second column class label, get all other \t's
+	#header3 = []
+	#header3.append('')
+	#header3.append('class')
+	#for g in genes:
+		#header3.append('')
 		
-	writer.writerow(header3)
+	#writer.writerow(header3)
 	
 	
 	for p in patients:
