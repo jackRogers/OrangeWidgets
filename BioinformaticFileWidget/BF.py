@@ -106,7 +106,7 @@ def makeDataFile(newFileName,dataDict):
 		fh.write(line)
 	fh.close
 	
-def makeCSVDataFile(newFileName,dataDict,label):
+def makeTXTDataFile(newFileName,dataDict,label):
 	fh = open(newFileName,'w')
 	writer = csv.writer(fh,delimiter = "\t")
 	patients = dataDict.keys()
@@ -199,5 +199,5 @@ def concat(flist, column_overlap=0, transpose=False):
 
 def main(outputFilePath,dataPath,label):
 	dictionary = concatFiles(dataPath)
-	makeCSVDataFile(outputFilePath,dictionary,label)
+	makeTXTDataFile(outputFilePath,dictionary,label)
 	#need to add bash command that concats files
