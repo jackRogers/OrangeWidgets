@@ -122,11 +122,11 @@ def makeCSVDataFile(newFileName,dataDict,label):
 	writer.writerow(header)
 	
 	header2 = []
-	header2.append('d')
+	header2.append('discrete')
 	#make class label discrete
-	header2.append('d')
+	header2.append('discrete')
 	for g in genes:
-		header2.append('c')
+		header2.append('continuous')
 	
 	writer.writerow(header2)
 	
@@ -136,6 +136,8 @@ def makeCSVDataFile(newFileName,dataDict,label):
 	header3.append('class')
 	for g in genes:
 		header3.append('')
+		
+	writer.writerow(header3)
 	
 	
 	for p in patients:
@@ -194,3 +196,8 @@ def concat(flist, column_overlap=0, transpose=False):
 
   return data  #may addd as numpy array later, if desired.
 
+
+def main(outputFilePath,dataPath,label):
+	dictionary = concatFiles(dataPath)
+	makeCSVDataFile(outputFilePath,dictionary,label)
+	#need to add bash command that concats files
