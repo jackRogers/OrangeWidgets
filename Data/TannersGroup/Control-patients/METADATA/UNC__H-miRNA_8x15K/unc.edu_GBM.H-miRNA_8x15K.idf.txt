@@ -1,0 +1,31 @@
+Investigation Title	MicroRNA  Analysis of TCGA GBM samples using Agilent MicroRNA array 					
+Experimental Design	is_expressed_design					
+Experimental Design Term Source REF	MGED Ontology					
+Experimental Factor Name	tumor type					
+Experimental Factor Type	disease_state_design	 				
+Experimental Factor Type Term Source REF	MGED Ontology					
+						
+Person Last Name	Topal	Hoadley				
+Person First Name	Michael	Katherine				
+Person Mid Initials						
+Person Email	michael_topal@med.unc.edu	hoadley@med.unc.edu				
+Person Phone	919.966.8208	919.966.1752				
+Person Address	"CB 7225 Lineberger Cancer Center, UNC, Chapel Hill, NC 27599 "	"CB 7225 Lineberger Cancer Center, UNC, Chapel Hill, NC 27599"				
+Person Affiliation	Lineberger Cancer Center	Lineberger Cancer Center				
+Person Roles	investigator	investigator				
+Person Roles Term Source REF	MGED Ontology	MGED Ontology				
+						
+Date of Experiment	1/20/2008					
+Public Release Date	12/19/2009					
+						
+Experiment Description	MicroRNA  Analysis of TCGA GBM samples using Agilent MicroRNA array					
+Protocol Name	unc.edu:labeling:H-miRNA_8x15K:01	unc.edu:hybridization:H-miRNA_8x15K:01	unc.edu:feature_extraction:H-miRNA_8x15K:01	unc.edu:unc_quantile_normalization:H-miRNA_8x15K:01	unc.edu:unc_DWD_Batch_adjusted:H-miRNA_8x15Kv2:02	
+Protocol Type	labeling	hybridization	feature_extraction 	Normalization	Normalization	
+Protocol Description	 Description of protocols available at http://bioinfostore.unc.edu/tcga/miRNAProtocol_V2_1_Final.pdf	Description of protocols available at http://bioinfostore.unc.edu/tcga/miRNAProtocol_V2_1_Final.pdf	Description of protocols available at http://bioinfostore.unc.edu/tcga/: files are miRNAProtocol_V2_1_Final.pdf and ReferenceGuide.pdf.	Description of protocols available at http://bioinfostore.unc.edu/tcga/miRNAProtocol_V2_1_Final.pdf	Description of protocols available at http://bioinfostore.unc.edu/tcga/Quantile_Normalization_originalPaper.pdf	Description of protocols available at http://bioinfostore.unc.edu/tcga/ files miRNAProtocol_V2_1_Final.pdf and ReferenceGuide.pdf and miRNA_Normalization_Level_2_3_description.doc
+						
+Protocol Term Source REF	MGED Ontology	MGED Ontology	MGED Ontology	MGED Ontology	MGED Ontology	MGED Ontology
+SDRF Files	unc.edu_GBM.H-miRNA_8x15K.1.sdrf.txt					
+						
+Term Source Name	MGED Ontology	caArray	BCR	ncbitax	Agilent	
+Term Source File	http://mged.sourceforge.net/ontologies/MGEDontology.php	http://caarraydb.nci.nih.gov/	http://www.tgen.org	http://www.ncbi.nlm.nih.gov/Taxonomy/taxonomyhome.html/	http://www.home.agilent.com	
+Term Source Version	1.3.0.1	2007-01	2007-01	2007-01	2007-01	

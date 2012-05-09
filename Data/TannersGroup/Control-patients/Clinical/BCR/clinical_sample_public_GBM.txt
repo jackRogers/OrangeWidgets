@@ -1,0 +1,11 @@
+bcr_sample_barcode	current_weight	days_to_collection	freezing_method	initial_weight	intermediate_dimension	longest_dimension	method_of_sample_procurement	oct_embedded	other_method_of_sample_procurement	sample_type	shortest_dimension	time_between_clamping_and_freezing	time_between_excision_and_freezing
+TCGA-06-0673-11A	null	null	null	null	0.8 cm	0.8 cm	null	null	null	Solid Tissue Normal	0.7 cm	null	null
+TCGA-06-0675-11A	null	null	null	null	0.8 cm	1.5 cm	null	null	null	Solid Tissue Normal	0.8 cm	null	null
+TCGA-06-0676-11A	null	null	null	null	0.7 cm	0.8 cm	null	null	null	Solid Tissue Normal	0.3 cm	null	null
+TCGA-06-0678-11A	null	null	null	null	0.8 cm	1.3 cm	null	null	null	Solid Tissue Normal	0.8 cm	null	null
+TCGA-06-0680-11A	null	null	null	null	0.9 cm	0.9 cm	null	null	null	Solid Tissue Normal	0.8 cm	null	null
+TCGA-06-0681-11A	null	null	null	null	0.9 cm	1.2 cm	null	null	null	Solid Tissue Normal	0.9 cm	null	null
+TCGA-08-0623-11A	null	null	null	null	0.9 cm	1.5 cm	null	null	null	Solid Tissue Normal	0.4 cm	null	null
+TCGA-08-0625-11A	null	null	null	null	0.9 cm	1.1 cm	null	null	null	Solid Tissue Normal	0.4 cm	null	null
+TCGA-08-0626-11A	null	null	null	null	0.4 cm	1.0 cm	null	null	null	Solid Tissue Normal	0.4 cm	null	null
+TCGA-08-0627-11A	null	null	null	null	0.6 cm	0.6 cm	null	null	null	Solid Tissue Normal	0.3 cm	null	null

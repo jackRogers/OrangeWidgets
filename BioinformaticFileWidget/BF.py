@@ -149,9 +149,7 @@ def makeCSVDataFile(newFileName,dataDict,label):
 		writer.writerow(line)
 		
 	fh.close
-	
-	
-	
+
 
 def concat(flist, column_overlap=0, transpose=False):
   """
