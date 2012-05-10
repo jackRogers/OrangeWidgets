@@ -122,24 +122,28 @@ def makeTXTDataFile(newFileName,dataDict,label):
 	writer.writerow(header)
 	
 	
-#commented out due to .tab fail so hard
-	#header2 = []
-	#header2.append('discrete')
-	##make class label discrete
-	#header2.append('discrete')
-	#for g in genes:
-		#header2.append('continuous')
+
+	header2 = []
+	header2.append('discrete')
+	#make class label discrete
+	header2.append('discrete')
+	for g in genes:
+		header2.append('continuous')
 	
-	#writer.writerow(header2)
+	writer.writerow(header2)
 	
-	##make second column class label, get all other \t's
-	#header3 = []
-	#header3.append('')
-	#header3.append('class')
-	#for g in genes:
-		#header3.append('')
+	#make second column class label, get all other \t's
+	header3 = []
+	header3.append('meta')
+	header3.append('class')
+	for g in genes:
+		header3.append('')
 		
-	#writer.writerow(header3)
+	writer.writerow(header3)
+	
+	
+	#lol = ['\n']
+	#writer.writerow(lol)
 	
 	
 	for p in patients:
@@ -147,7 +151,10 @@ def makeTXTDataFile(newFileName,dataDict,label):
 		line.append(p)
 		line.append(label)
 		for g in genes:
-			line.append(dataDict[p][g])
+			if dataDict[p][g] == 'null':
+				line.append("")
+			else:
+				line.append(dataDict[p][g])
 		writer.writerow(line)
 		
 	fh.close
@@ -201,3 +208,16 @@ def main(outputFilePath,dataPath,label):
 	dictionary = concatFiles(dataPath)
 	makeTXTDataFile(outputFilePath,dictionary,label)
 	#need to add bash command that concats files
+	
+	
+def jackmain(gbmOutput, healthyOutput):
+	gbmpath = '/home/jack/Documents/OrangeWidgets/Data/JacksGroup/TCGAdata/Total/'
+	healthypath = '/home/jack/Documents/OrangeWidgets/Data/JacksGroup/Healties/'
+	gbm = gbmOutput
+	health = healthyOutput
+	
+	
+	main(gbm,gbmpath,'GBM')
+	main(health,healthypath,'NORMAL')
+	
+	
