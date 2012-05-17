@@ -1,0 +1,480 @@
+#LyX 2.0 created this file. For more info see http://www.lyx.org/
+\lyxformat 413
+\begin_document
+\begin_header
+\textclass article
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_amsmath 1
+\use_esint 1
+\use_mhchem 1
+\use_mathdots 1
+\cite_engine basic
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+Title
+\end_layout
+
+\begin_layout Author
+Stacy Roudabush, Philip Pope, Nikolas Santamaria, Jack Rogers
+\end_layout
+
+\begin_layout Abstract
+djiad
+\end_layout
+
+\begin_layout Abstract
+dwajidl
+\end_layout
+
+\begin_layout Abstract
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset toc
+LatexCommand tableofcontents
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Introduction
+\end_layout
+
+\begin_layout Standard
+durp durp durp
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Methods
+\end_layout
+
+\begin_layout Subsection
+Data
+\end_layout
+
+\begin_layout Standard
+We downloaded the UNC Agilent glioblastoma multiforme dataset from The Cancer
+ Genome Atlas.(TCGA) We examined mRNA expression levels of 593 glioblastoma
+ patients and 10 control patients.
+ This consisted of 17813 known mRNAs whose expression levels had already
+ been normalized as we used the level 3 data.
+ Because orange does not accept multiple files at once easily and the UNC
+ Agilent dataset was had an individual text file for the mRNA expression
+ levels of each patient, we constructed a parser in python that went into
+ each file and populated a dictionary of the expression levels of each patient
+ in the dataset.
+ We then wrote this dictionary to a tab delimited file that orange is comfortabl
+e with opening.
+ This file had each patientID as a meta attribute and a class attribute
+ that contained information as to whether that patient was a control or
+ had glioblastoma multiforme.
+\end_layout
+
+\begin_layout Subsection
+Ranking
+\end_layout
+
+\begin_layout Standard
+Once the obstacle of getting the data loaded properly into Orange had been
+ surmounted, we ranked genes based on their level of statistical significance
+ using the relief-f feature selection algorithm(parameters: neighbors =
+ 20, examples = 100) in the Rank widget.
+ We then continued to examine the 100 genes with the highest relief f scores.
+ We continued our analysis using the Gene Selection widget in the bioinformatics
+ addon.
+ This widget allowed us to select from an assortment of statistical functions
+ and outputs genes which reach a certain threshold for the given function.
+ These functions include: fold change, log2 fold change, t-test, t-test
+ p-values, anova, anova p-value, signal to noise ratio, info gain, chi-square,
+ and mann-whitney.
+\end_layout
+
+\begin_layout Subsection
+Classifiers
+\end_layout
+
+\begin_layout Standard
+After running each of these tests and selecting the genes that had reached
+ the necessary threshold for the given function, we began to test different
+ machine learning classifiers on the full data set with all the genes and
+ compared the performance results with the same classifiers looking only
+ at our resulting subset of selected genes.
+\end_layout
+
+\begin_layout Standard
+We used 5 different classifiers for testing the performance increase in
+ evaluating only the selected genes.
+ Theres were:
+\end_layout
+
+\begin_layout Itemize
+C-SVM 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+polynomial kernel of degree 2.0
+\end_layout
+
+\begin_layout Itemize
+complexity bound of 0.5
+\end_layout
+
+\begin_layout Itemize
+cost parameter of 1.0 
+\end_layout
+
+\begin_layout Itemize
+numerical tolerance of 0.0010 
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+K-Nearest Neighbors 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+evaluated 5 neighbors 
+\end_layout
+
+\begin_layout Itemize
+Euclidean Metric 
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Classification tree 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Information gain as attribute selection criterion, 
+\end_layout
+
+\begin_layout Itemize
+pre-pruning with 2 minimum instances in leaves
+\end_layout
+
+\begin_layout Itemize
+post-pruning by recursively merging leaves with teh same majority class
+ post-pruning with m-estimate of m = 2.
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Logistic Regression 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+missing values imputed with averages 
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Naive bayes 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Prior and Conditional probability estimation using relative frequency 
+\end_layout
+
+\begin_layout Itemize
+Size of LOESS window equal to 0.5 
+\end_layout
+
+\begin_layout Itemize
+LOESS sample points equal to 100
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+At the time of this writing, we are waiting for a confirmatory PCA analysis
+ using SAS as we have been unable to get Orange’s PCA widget to work correctly.
+\end_layout
+
+\begin_layout LyX-Code
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Results
+\end_layout
+
+\begin_layout Standard
+durp
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "100col%"
+height "1pt"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename /home/jack/orange-reports/heatmap.png
+	display false
+
+\end_inset
+
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename /home/jack/orange-reports/expressionProfiles.png
+	display false
+
+\end_inset
+
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename /home/jack/orange-reports/Interaction1.png
+	display false
+
+\end_inset
+
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename /home/jack/orange-reports/Interaction2.png
+	display false
+
+\end_inset
+
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Discussion
+\end_layout
+
+\begin_layout Standard
+durp durp durp
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Conclusion
+\end_layout
+
+\begin_layout Standard
+durp durp durp
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-2"
+
+\end_inset
+
+duwpad
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-3"
+
+\end_inset
+
+adwjiaf
+\end_layout
+
+\end_body
+\end_document
